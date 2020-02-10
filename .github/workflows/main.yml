@@ -16,7 +16,7 @@ jobs:
 
       - name: Build Project
         run: |
-          yarn install
+          yarn
           yarn build
 
       - name: List output files
