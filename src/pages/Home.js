@@ -3,7 +3,7 @@ import axios from 'axios'
 import Particles from 'react-particles-js'
 import Socialicons from '../components/Socialicons'
 import Layout from '../components/Layout'
-import particleConfigs from 'particle-configs'
+import particleConfigs from '../data/particle-configs'
 
 const Home = () => {
   const [information, setInformation] = useState('')
