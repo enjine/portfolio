@@ -29,6 +29,7 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           LOCAL_DIR: build
+          REMOTE_DIR: enjine.net/htdocs
           METHOD: sftp
           PORT: 22
           ARGS: --delete
