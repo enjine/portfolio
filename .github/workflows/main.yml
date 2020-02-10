@@ -20,7 +20,7 @@ jobs:
           yarn build
 
       - name: List output files
-        run: ls
+        run: ls build
 
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@2.0.0
