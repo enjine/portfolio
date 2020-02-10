@@ -3,51 +3,24 @@ import axios from 'axios'
 import Particles from 'react-particles-js'
 import Socialicons from '../components/Socialicons'
 import Layout from '../components/Layout'
+import particleConfigs from 'particle-configs'
 
-function Home() {
+const Home = () => {
   const [information, setInformation] = useState('')
-  const paramConfig = {
-    particles: {
-      number: {
-        value: 160,
-        density: {
-          enable: false
-        }
-      },
-      color: {
-        value: '#ffffff'
-      },
-      opacity: {
-        value: 0.1
-      },
-      size: {
-        value: 5,
-        random: true,
-        anim: {
-          speed: 4,
-          size_min: 0.3
-        }
-      },
-      line_linked: {
-        enable: false
-      },
-      move: {
-        random: true,
-        speed: 1,
-        direction: 'top',
-        out_mode: 'out'
-      }
-    }
-  }
+
   useEffect(() => {
     axios.get('/api/information').then(response => {
       setInformation(response.data)
     })
   }, [])
+
   return (
     <Layout>
       <div className="mi-home-area mi-padding-section">
-        <Particles className="mi-home-particle" params={paramConfig} />
+        <Particles
+          className="mi-home-particle"
+          params={getConfig(particleConfigs)}
+        />
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10 col-12">
@@ -66,6 +39,34 @@ function Home() {
       </div>
     </Layout>
   )
+}
+
+const getConfig = configs =>
+  shuffle(configs)[[Math.floor(Math.random() * configs.length)]]
+
+/**
+ * Randomly shuffle an array
+ * https://stackoverflow.com/a/2450976/1293256
+ * @param  {Array} array The array to shuffle
+ * @return {String}      The first item in the shuffled array
+ */
+const shuffle = array => {
+  let currentIndex = array.length
+  let temporaryValue, randomIndex
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex)
+    currentIndex -= 1
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex]
+    array[currentIndex] = array[randomIndex]
+    array[randomIndex] = temporaryValue
+  }
+
+  return array
 }
 
 export default Home

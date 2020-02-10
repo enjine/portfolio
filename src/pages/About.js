@@ -6,7 +6,7 @@ import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
 import Service from '../components/Service'
 
-function About() {
+const About = () => {
   const [toggler, setToggler] = useState(false)
   const [information, setInformation] = useState('')
   const [services, setServices] = useState([])

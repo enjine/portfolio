@@ -5,7 +5,7 @@ import Portfolio from '../components/Portfolio'
 import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
 
-function Portfolios() {
+const Portfolios = () => {
   const [portfolios, setPortfoios] = useState([])
 
   useEffect(() => {
