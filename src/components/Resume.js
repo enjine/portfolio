@@ -1,7 +1,15 @@
-import React from "react";
+import React from 'react'
 
 const Resume = props => {
-  const {year, position, graduation, location, university, company, details} = props.resumeData;
+  const {
+    year,
+    position,
+    graduation,
+    location,
+    university,
+    company,
+    details
+  } = props.resumeData
   return (
     <div className="mi-resume mt-30">
       <div className="mi-resume-summary">
@@ -9,11 +17,14 @@ const Resume = props => {
       </div>
       <div className="mi-resume-details">
         <h5>{position || graduation}</h5>
-        <h6 className="mi-resume-company">{company || university} <span className="mi-resume-location">{location}</span></h6>
+        <h6 className="mi-resume-company">
+          {company || university}{' '}
+          <span className="mi-resume-location">{location}</span>
+        </h6>
         <p>{details}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Resume;
+export default Resume

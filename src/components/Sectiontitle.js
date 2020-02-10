@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
 const Sectiontitle = props => (
-    <div className="mi-sectiontitle">
-      <h2>{props.title}</h2>
-      <span>{props.title}</span>
-    </div>
-  );
+  <div className="mi-sectiontitle">
+    <h2>{props.title}</h2>
+    <span>{props.title}</span>
+  </div>
+)
 
-export default Sectiontitle;
+export default Sectiontitle

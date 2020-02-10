@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from 'axios';
-import Particles from "react-particles-js";
-import Socialicons from "../components/Socialicons";
-import Layout from "../components/Layout";
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import Particles from 'react-particles-js'
+import Socialicons from '../components/Socialicons'
+import Layout from '../components/Layout'
 
-function Home(){
-  const [information, setInformation] = useState("");
+function Home() {
+  const [information, setInformation] = useState('')
   const paramConfig = {
     particles: {
       number: {
@@ -15,7 +15,7 @@ function Home(){
         }
       },
       color: {
-        value: "#ffffff"
+        value: '#ffffff'
       },
       opacity: {
         value: 0.1
@@ -34,15 +34,14 @@ function Home(){
       move: {
         random: true,
         speed: 1,
-        direction: "top",
-        out_mode: "out"
+        direction: 'top',
+        out_mode: 'out'
       }
     }
-  };
-  useEffect(() =>{
-    axios.get('/api/information')
-    .then( response => {
-      setInformation(response.data);
+  }
+  useEffect(() => {
+    axios.get('/api/information').then(response => {
+      setInformation(response.data)
     })
   }, [])
   return (
@@ -54,7 +53,9 @@ function Home(){
             <div className="col-lg-10 col-12">
               <div className="mi-home-content">
                 <h1>
-                  <span className="color-theme">{information.name}</span>
+                  <span className="color-theme">
+                    {information.firstName} <br /> {information.lastName}
+                  </span>
                 </h1>
                 <p>{information.aboutContent}</p>
                 <Socialicons bordered />
@@ -64,7 +65,7 @@ function Home(){
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
-export default Home;
+export default Home

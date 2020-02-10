@@ -1,13 +1,13 @@
-import React from 'react';
-import LineIcon from 'react-lineicons';
+import React from 'react'
+import LineIcon from 'react-lineicons'
 
 const Smalltitle = props => (
-    <div className="mi-smalltitle">
-      <span className="mi-smalltitle-icon">
-        <LineIcon name={props.icon}/>
-      </span>
-      <h4>{props.title}</h4>
-    </div>
-  );
+  <div className="mi-smalltitle">
+    <span className="mi-smalltitle-icon">
+      <LineIcon name={props.icon} />
+    </span>
+    <h4>{props.title}</h4>
+  </div>
+)
 
-export default Smalltitle;
+export default Smalltitle

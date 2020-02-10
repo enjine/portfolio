@@ -1,0 +1,30 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "prettier"
+  ],
+  "plugins": [
+    "prettier",
+    "babel"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "babel/new-cap": 1,
+    "babel/no-invalid-this": 1,
+    "babel/no-unused-expressions": 1,
+    "babel/valid-typeof": 1
+  }
+}
