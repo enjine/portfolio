@@ -42,7 +42,7 @@ const Home = () => {
 }
 
 const getConfig = configs =>
-  shuffle(configs)[[Math.floor(Math.random() * configs.length)]]
+  shuffle(configs)[Math.floor(Math.random() * configs.length)]
 
 /**
  * Randomly shuffle an array
