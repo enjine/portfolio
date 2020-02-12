@@ -2,7 +2,7 @@
  * Typography
  */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai|Lato|Sarabun:300,400,400i,600,700,800&display=swap');
 
 *,
 *::before,
@@ -138,7 +138,6 @@ h6 {
   }
 }
 
-
 ::-moz-selection {
   background: $color-theme;
   color: #ffffff;
@@ -160,7 +159,6 @@ h6 {
 }
 
 a {
-
   &:hover,
   &:focus,
   &:active {
@@ -224,8 +222,8 @@ blockquote {
   z-index: 1;
 
   &::after {
-    content: "\f10d";
-    font-family: "Font Awesome 5 Free";
+    content: '\f10d';
+    font-family: 'Font Awesome 5 Free';
     font-weight: 700;
     position: absolute;
     left: 50%;
@@ -259,10 +257,10 @@ blockquote {
   }
 }
 
-[class^="flaticon-"],
-[class*=" flaticon-"],
-[class^="flaticon-"],
-[class*=" flaticon-"] {
+[class^='flaticon-'],
+[class*=' flaticon-'],
+[class^='flaticon-'],
+[class*=' flaticon-'] {
   line-height: 1;
 
   &::before,
@@ -292,23 +290,21 @@ blockquote {
   }
 }
 
-
 input,
 select,
 textarea {
-
   &:-webkit-autofill,
   &:-webkit-autofill:hover,
   &:-webkit-autofill:focus,
   &:-webkit-autofill:active {
-    transition: background-color 50000s ease-in-out 0s, color 50000s ease-in-out 0s;
+    transition: background-color 50000s ease-in-out 0s,
+      color 50000s ease-in-out 0s;
   }
 }
 
-
 /* Checkbox & Radio Styles */
-input[type=checkbox],
-input[type=radio] {
+input[type='checkbox'],
+input[type='radio'] {
   visibility: hidden;
   opacity: 0;
   display: inline-block;
@@ -323,7 +319,7 @@ input[type=radio] {
     cursor: pointer;
 
     ::before {
-      content: "";
+      content: '';
       font-family: 'Font Awesome 5 free';
       font-weight: 700;
       position: absolute;
@@ -342,7 +338,7 @@ input[type=radio] {
       color: $color-theme;
 
       ::before {
-        content: "\f00c";
+        content: '\f00c';
 
         color: $color-theme;
         border-color: $color-theme;
@@ -351,10 +347,10 @@ input[type=radio] {
   }
 }
 
-input[type=radio] {
+input[type='radio'] {
   ~ label {
     ::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 50%;
@@ -363,7 +359,7 @@ input[type=radio] {
       height: 15px;
       width: 15px;
       margin-top: -8px;
-      line-height: .5;
+      line-height: 0.5;
       font-size: 28px;
     }
   }
@@ -371,7 +367,7 @@ input[type=radio] {
   &:checked {
     ~ label {
       ::before {
-        content: "";
+        content: '';
         color: $color-theme;
         border-color: $color-theme;
       }

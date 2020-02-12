@@ -10,15 +10,13 @@
   &-image {
     display: block;
     position: relative;
-    
+
     &::before {
-      content: "";
+      content: '';
       position: absolute;
-      left: 15px;
-      top: 15px;
-      height: calc(100% - 30px);
-      width: calc(100% - 30px);
-      background: rgba(#ffffff, 0.9);
+      height: 100%;
+      width: 100%;
+      background: rgba($color-secondary, 0.9);
       transition: $transition;
       transform: scaleX(0);
       transform-origin: 0;
@@ -43,7 +41,8 @@
         display: inline-block;
         margin: 0 7px;
 
-        a, button {
+        a,
+        button {
           display: inline-block;
           height: 45px;
           width: 45px;
@@ -52,14 +51,14 @@
           text-align: center;
           line-height: 1;
           background: $color-body;
-          color: #ffffff;
+          color: $color-secondary;
           border: 1px solid $color-body;
           border-radius: 100px;
-         outline: none; 
+          outline: none;
           font-size: 1.25rem;
           transition: $transition;
 
-          svg{
+          svg {
             height: 100%;
           }
 
@@ -93,19 +92,19 @@
     margin-bottom: 0;
   }
 
-  &:hover &-image{
-    &::before{
+  &:hover &-image {
+    &::before {
       transform: scaleX(1);
     }
 
-    ul{
+    ul {
       visibility: visible;
       opacity: 1;
       margin-top: 0;
     }
   }
 
-  &.mi-portfolio-visible{
+  &.mi-portfolio-visible {
     visibility: visible;
     opacity: 1;
   }

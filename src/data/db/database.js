@@ -23,8 +23,8 @@ const database = {
       github: 'https://github.com/enjine'
     },
     brandImage: '/images/brand-image.png',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    aboutImage: '/images/about-image.png',
+    aboutImageLg: '/images/about-image-lg.png',
     cvfile: '/files/Alessandro-Di-Candia-CV-2020-final.pdf'
   },
   services: [
@@ -128,7 +128,7 @@ const database = {
       id: 1,
       title: 'gainbridge.life',
       subtitle:
-        'Fully digital retail annuity e-commerce platform. Purchase fixed annuities direct from the issuer, without an agent.',
+        'Fully digital retail annuity e-commerce platform. Purchase fixed annuities direct from the issuer, without an agent, on any device.',
       imageUrl: '/images/portfolio-image-1.png',
       largeImageUrl: ['/images/portfolio-image-1-lg.png'],
       url: 'https://gainbridge.life'
@@ -137,10 +137,19 @@ const database = {
       id: 2,
       title: 'tv.verizon.com',
       subtitle:
-        'TV Everywhere product. Watch TV and movies on any device from anywhere using your cable provider account.',
+        'Multi-tenant TV Everywhere product enabling cable subscribers to watch TV and movies on any device from anywhere.',
       imageUrl: '/images/portfolio-image-2.png',
       largeImageUrl: ['/images/portfolio-image-2-lg.png'],
       url: 'https://tv.verizon.com'
+    },
+    {
+      id: 3,
+      title: 'Ultrastar/LiveNation',
+      subtitle:
+        "Official fanclub and advance ticketing platform for touring artists. Ultrastar Entertainment was founded in 1998 by David Bowie to create artist-powered, fan-driven internet communities. In 2007, David's pioneering community platform was purchased by Live Nation and continued to actualize his vision of artist-powered, fan-driven experiences.",
+      imageUrl: '/images/portfolio-image-3.png',
+      largeImageUrl: ['/images/portfolio-image-3-lg.png'],
+      url: 'https://www.livenationentertainment.com/'
     }
   ],
   experience: {
@@ -177,7 +186,7 @@ const database = {
         year: 'May 2000 - Feb 2008',
         position: 'Director, Product Engineering',
         company: 'Ultrastar / LiveNation',
-        location: 'NYC',
+        location: 'NYC / Brooklyn',
         details:
           'Pioneered development of a fanclub and advance ticket sales platform for David Bowie, The Rolling Stones, The Who, and many other LiveNation artists. Directed engineering team in delivery of client work, led concepting and development of innovative products to attract new artists to the company.'
       }

@@ -54,7 +54,10 @@ const Header = () => {
             </NavLink>
           </li>
         </ul>
-        <p className="mi-header-copyright">&copy; {new Date().getFullYear()}</p>
+        <p className="mi-header-copyright">
+          &copy; <span className="mi-header-heart">♥</span>{' '}
+          {new Date().getFullYear()}
+        </p>
       </div>
     </nav>
   )

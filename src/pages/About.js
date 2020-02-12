@@ -11,10 +11,8 @@ const About = () => {
   const [information, setInformation] = useState('')
   const [services, setServices] = useState([])
 
-  const handleToggler = event => {
-    setToggler({
-      toggler: event
-    })
+  const handleToggler = value => {
+    setToggler(value)
   }
 
   useEffect(() => {

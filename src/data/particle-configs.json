@@ -2,43 +2,48 @@
   {
     "particles": {
       "number": {
-        "value": 587,
+        "value": 50,
         "density": {
           "enable": true,
-          "value_area": 882
+          "value_area": 500
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#1e1e1e"
       },
       "shape": {
-        "type": "star",
+        "type": "polygon",
         "stroke": {
-          "width": 0,
-          "color": "#000000"
+          "width": 1,
+          "color": "#efad39"
         },
         "polygon": {
-          "nb_sides": 5
+          "nb_sides": 7
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
         }
       },
       "opacity": {
-        "value": 0.5,
-        "random": true,
-        "anim": {
-          "enable": false,
-          "speed": 1,
-          "opacity_min": 0.1,
-          "sync": false
-        }
-      },
-      "size": {
-        "value": 4,
+        "value": 0.3,
         "random": true,
         "anim": {
           "enable": true,
-          "speed": 0,
-          "size_min": 0.8,
+          "speed": 1,
+          "opacity_min": 0.1,
           "sync": true
+        }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
         }
       },
       "line_linked": {
@@ -57,22 +62,22 @@
         "out_mode": "out",
         "bounce": false,
         "attract": {
-          "enable": true,
-          "rotateX": 960,
+          "enable": false,
+          "rotateX": 600,
           "rotateY": 1200
         }
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": {
         "onhover": {
           "enable": true,
           "mode": "bubble"
         },
         "onclick": {
-          "enable": true,
-          "mode": "push"
+          "enable": false,
+          "mode": "bubble"
         },
         "resize": true
       },
@@ -84,10 +89,10 @@
           }
         },
         "bubble": {
-          "distance": 75,
-          "size": 0,
-          "duration": 5,
-          "opacity": 8,
+          "distance": 200,
+          "size": 95,
+          "duration": 2,
+          "opacity": 0.2,
           "speed": 3
         },
         "repulse": {
@@ -132,7 +137,7 @@
         }
       },
       "opacity": {
-        "value": 0.01603412060865523,
+        "value": 0.02,
         "random": true,
         "anim": {
           "enable": false,
@@ -162,7 +167,7 @@
         "enable": true,
         "speed": 8,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
         "bounce": false,
