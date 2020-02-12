@@ -191,6 +191,24 @@ const database = {
           'Pioneered development of a fanclub and advance ticket sales platform for David Bowie, The Rolling Stones, The Who, and many other LiveNation artists. Directed engineering team in delivery of client work, led concepting and development of innovative products to attract new artists to the company.'
       }
     ],
+    volunteerExperience: [
+      {
+        id: 1,
+        year: '2019 - 2020',
+        position: 'Auction Committee Chair',
+        company: 'River Valley Waldorf School',
+        details:
+          'Organized, planned and executed the largest annual fundraiser. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations, and produce digital documentation operationalizing the process for future committees; a first in the history of the school.'
+      },
+      {
+        id: 2,
+        year: '2015 - 2018',
+        position: 'IT Committee Chair',
+        company: 'River Valley Waldorf School',
+        details:
+          'Helped update internal technology infrastructure, helped faculty and staff with tech-related operations.'
+      }
+    ],
     educationExperience: [
       {
         id: 1,
