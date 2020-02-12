@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import FsLightbox from 'fslightbox-react'
-import * as Icon from 'react-feather'
+// import FsLightbox from 'fslightbox-react'
+// import * as Icon from 'react-feather'
 import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
 import Service from '../components/Service'
+
+/*
+<span className="mi-about-image-icon">
+  <Icon.ZoomIn />
+</span>
+<FsLightbox
+  toggler={toggler}
+  sources={[information.aboutImageLg]}
+/>
+*/
 
 const About = () => {
   const [toggler, setToggler] = useState(false)
@@ -36,13 +46,6 @@ const About = () => {
                   src={information.aboutImage}
                   alt="cover letter"
                   onClick={() => handleToggler(!toggler)}
-                />
-                <span className="mi-about-image-icon">
-                  <Icon.ZoomIn />
-                </span>
-                <FsLightbox
-                  toggler={toggler}
-                  sources={[information.aboutImageLg]}
                 />
               </div>
             </div>
@@ -81,7 +84,12 @@ const About = () => {
                   and riding motorcycles on sunny days.
                 </p>
 
-                <a href={information.cvfile} className="mi-button">
+                <a
+                  href={information.cvfile}
+                  className="mi-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Download CV
                 </a>
               </div>

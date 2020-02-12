@@ -12,7 +12,7 @@
       left: 0;
       top: 0;
       height: 65%;
-      width: 15px;
+      width: 0px;
       background: rgba($color-theme, 0.6);
     }
 
@@ -24,7 +24,7 @@
       top: auto;
       bottom: 0;
       height: 65%;
-      width: 15px;
+      width: 0px;
       background: rgba($color-theme, 0.6);
     }
 
@@ -40,7 +40,7 @@
       width: 100px;
       margin-left: -50px;
       margin-top: -50px;
-      color: #ffffff;
+      color: $color-secondary;
       display: inline-block;
       visibility: hidden;
       opacity: 0;

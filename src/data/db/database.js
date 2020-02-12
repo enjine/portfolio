@@ -23,7 +23,7 @@ const database = {
       github: 'https://github.com/enjine'
     },
     brandImage: '/images/brand-image.png',
-    aboutImage: '/images/about-image.png',
+    aboutImage: '/images/comin-atcha.gif',
     aboutImageLg: '/images/about-image-lg.png',
     cvfile: '/files/Alessandro-Di-Candia-CV-2020-final.pdf'
   },
@@ -56,7 +56,7 @@ const database = {
       title: 'JavaScript',
       icon: 'code',
       details:
-        'Cross-browser specialization, performance-aware. Node.js applied when needed, usually as serverless apps, parts of toolchains, or standalone packages.'
+        'Cross-browser specialization, performance-aware. Node.js when needed, usually as serverless apps, npm packages, or parts of toolchains.'
     },
     {
       title: 'HTML/CSS',
