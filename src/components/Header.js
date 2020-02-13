@@ -45,7 +45,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink to="/experience">
-              <span>Skills + Timeline</span>
+              <span>Timeline</span>
             </NavLink>
           </li>
           <li>
