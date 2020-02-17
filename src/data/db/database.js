@@ -166,11 +166,11 @@ const database = {
       {
         id: 2,
         year: 'Aug 2017 - Jan 2020',
-        position: 'VP Technology: Digital Platform',
+        position: 'VP Technology, Digital Platform',
         company: 'Group1001',
         location: 'Remote',
         details:
-          "VP of Tech for an internal startup creating a retail annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams."
+          "VP of Tech for an internal startup creating a retail annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams. Individual contributions as a UI Engineer using React, Redux, Sagas, Aphrodite."
       },
       {
         id: 3,
