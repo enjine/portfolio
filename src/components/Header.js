@@ -48,11 +48,6 @@ const Header = () => {
               <span>Timeline</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/projects">
-              <span>Projects</span>
-            </NavLink>
-          </li>
         </ul>
         <p className="mi-header-copyright">
           &copy; <span className="mi-header-heart">♥</span>{' '}

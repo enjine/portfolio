@@ -32,7 +32,7 @@ const database = {
       title: 'Team Culture',
       icon: 'grow',
       details:
-        "Hiring, managing, and retaining distributed engineering teams is one of my super powers. Every team needs to develop it's own identity. I understand the value of on-site time as well as work-from-home time and know how to blend them both successfully to build strong, accountable, and unified teams."
+        "Hiring, managing, and retaining distributed engineering teams is my strong suit. Every team needs to develop it's own identity. I understand the value of on-site time as well as work-from-home time and know how to blend them both successfully to build strong, accountable, and unified teams."
     },
     {
       title: 'Domain Language',
@@ -61,7 +61,7 @@ const database = {
     {
       title: 'HTML/CSS',
       icon: 'brick',
-      details: " Mastery of the browser's building blocks."
+      details: "Mastery of the browser's building blocks."
     },
     {
       title: 'CI/CD',
