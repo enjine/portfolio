@@ -9,8 +9,8 @@ const database = {
     age: 42,
     phone: '',
     nationality: '',
-    language: 'English, Italian, Computer',
-    email: 'alex[at]enjine.net',
+    language: '',
+    email: 'alex@enjine.net',
     address: 'Ferndale, PA 18921',
     freelanceStatus: 'Available',
     socialLinks: {
@@ -53,6 +53,12 @@ const database = {
         'The web is a multi-device experience. I deeply understand this medium and how to make those transitions seamless.'
     },
     {
+      title: 'Java/JVM',
+      icon: 'java',
+      details:
+        'Experience with compiled languages on the JVM including Java, Scala, and Kotlin and with Maven and Gradle as build tools.'
+    },
+    {
       title: 'JavaScript',
       icon: 'code',
       details:
@@ -62,6 +68,12 @@ const database = {
       title: 'HTML5/CSS3',
       icon: 'brick',
       details: "Mastery of the browser's building blocks."
+    },
+    {
+      title: 'Docker/Kubernetes',
+      icon: 'ship',
+      details:
+        'Experience working with large clusters of containerized microservices using managed Kubernetes on AWS.'
     },
     {
       title: 'CI/CD',
