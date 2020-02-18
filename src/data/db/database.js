@@ -5,7 +5,7 @@ const database = {
     firstName: 'Alessandro',
     lastName: 'Di Candia',
     aboutContent:
-      'Product-centric Technology Leader. Specialization in managing distributed teams, front-end engineering, software quality, and CI/CD. Growth mindset well-suited to startups and product development.',
+      'Product-centric Technology Leader. Specialization in managing distributed teams, front-end engineering, software quality, and CI/CD. Growth mindset for startups and product development/innovation.',
     age: 42,
     phone: '',
     nationality: '',
@@ -32,34 +32,34 @@ const database = {
       title: 'Team Culture',
       icon: 'grow',
       details:
-        "Hiring, managing, and retaining distributed engineering teams is my strong suit. Every team needs to develop it's own identity. I understand the value of on-site time as well as work-from-home time and know how to blend them both successfully to build strong, accountable, and unified teams."
+        "Hiring, managing, and retaining distributed engineering teams is my strong suit. Every team needs to develop it's own identity. I understand the value of on-site time as well as work-from-home time. I build strong, accountable, unified teams founded on trust."
     },
     {
       title: 'Domain Language',
       icon: 'write',
       details:
-        "To solve problems and create solutions effectively, you need all participants to share the same understanding of what's being solved/asked for. I have successfully introduced Domain Driven Design (DDD) as one way to avoid many of the struggles that befall cross functional teams when defining technical requirements and acceptance criteria."
+        'To collaboratively solve problems and create effective solutions, teams must share an understanding of both the problem and the solution. I have successfully introduced Domain Driven Design (DDD) as one way to avoid many of the struggles that befall cross-functional teams when defining technical requirements and acceptance criteria.'
     },
     {
       title: 'Platform Architecture',
       icon: 'cloudnetwork',
       details:
-        'Architecting scalable, distributed systems for growth is where I have spent most of my career. As an individual contributor or tech lead, I always seek to gain a deep understanding of the problem space aiming to create simple solutions with low incidental complexity.'
+        '20 years of experience designing scalable, distributed systems for growth. Whether acting as manager, tech lead, or individual contributor, my approach is the same; gain a deep understanding of the problem space and strive for simple solutions.'
     },
     {
       title: 'Responsive Web Applications',
       icon: 'laptop-phone',
       details:
-        'People experience the internet across multiple screen sizes. I deeply understand this medium and how to make those transitions seamless.'
+        'The web is a multi-device experience. I deeply understand this medium and how to make those transitions seamless.'
     },
     {
       title: 'JavaScript',
       icon: 'code',
       details:
-        'Cross-browser specialization, performance-aware. Node.js when needed, usually as serverless apps, npm packages, or parts of toolchains.'
+        'Specialization in creating responsive, cross-browser applications that are performant. Node.js when needed, usually as serverless apps, npm packages, or parts of toolchains.'
     },
     {
-      title: 'HTML/CSS',
+      title: 'HTML5/CSS3',
       icon: 'brick',
       details: "Mastery of the browser's building blocks."
     },
@@ -67,7 +67,7 @@ const database = {
       title: 'CI/CD',
       icon: 'rocket',
       details:
-        "'Good Code' is code that ships fast and is of high quality. I understand what is needed to assemble a pipeline that builds, tests, and deploys your project while failing-fast if things are not right."
+        'Delivery becomes a competitive advantage when your teams are able to ship high quality work quickly. I understand what is needed to assemble a pipeline that builds, tests, and deploys projects into a cluster, but also fails-fast if quality standards are not met.'
     },
     {
       title: 'Regulatory Compliance',
@@ -79,7 +79,7 @@ const database = {
       title: 'INFOSEC',
       icon: 'shield',
       details:
-        'Modern codebases need modern security practices. I understand what is required to maintain systems hardened against vulnerabilities and keep data secure at rest, over the wire, and when shared with trusted 3rd parties.'
+        'Modern codebases require modern security practices. I understand what is required to maintain systems hardened against vulnerabilities and keep data secure at rest, over the wire, and when shared with trusted 3rd parties.'
     }
   ],
   reviews: [
@@ -161,7 +161,7 @@ const database = {
         company: 'Bitwise',
         location: 'Remote',
         details:
-          'Single-member LLC created to offer freelance consulting services to startups and small businesses in NYC, Brooklyn, DC, Philadelphia, and Napa, CA. Developed an array of web-based software projects; some for high-profile clients but mostly for startups.'
+          'Single-member LLC created to offer freelance consulting services to startups and small businesses in NYC, Brooklyn, DC, Philadelphia, and CA. Developed a range of web-based software projects for high-profile clients and startups.'
       },
       {
         id: 2,
@@ -170,7 +170,7 @@ const database = {
         company: 'Group1001',
         location: 'Remote',
         details:
-          "VP of Tech for an internal startup creating a retail annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams. Individual contributions as a UI Engineer using React, Redux, Sagas, Aphrodite."
+          "VP of Tech for an internal startup creating a direct-to-consumer annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver just in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams. Individual contributions as a UI Engineer using React, Redux, Sagas, and Aphrodite."
       },
       {
         id: 3,
@@ -179,7 +179,7 @@ const database = {
         company: 'Synacor',
         location: 'Remote',
         details:
-          'Decided I wanted to master frontend engineering. Joined as a UI Team lead but evolved into more of a cross-team consulting engineer. Worked across several high-profile projects within the company. Temporarily managed our distributed team while the open req was being filled.'
+          'Joined as a UI Tech Lead and evolved into a cross-team consulting engineer. Worked across several high-profile projects within the company. Temporarily managed our distributed team during a period of re-organization.'
       },
       {
         id: 4,
