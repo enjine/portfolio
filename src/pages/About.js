@@ -75,14 +75,11 @@ const About = () => {
                 </ul>
                 <p>I solve problems and work well with others.</p>
                 <p>
-                  I communicate clearly and am excellent at translating the
-                  non-technical to technical and vice-versa.
+                  I listen well, communicate clearly and am excellent at
+                  translating the non-technical to technical and vice-versa.
                 </p>
                 <p>I bring people together.</p>
-                <p>
-                  I enjoy challenging work, listening to (and playing) music,
-                  and riding motorcycles on sunny days.
-                </p>
+                <p>I love a challenge, asking questions, and writing code.</p>
 
                 <a
                   href={information.cvfile}
