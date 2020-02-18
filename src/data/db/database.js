@@ -62,7 +62,7 @@ const database = {
       title: 'JavaScript',
       icon: 'code',
       details:
-        'Specialization in creating responsive, cross-browser applications that are performant. Node.js when needed, usually as serverless apps, npm packages, or parts of toolchains.'
+        'Specialization in creating responsive, web applications that are highly performant. Deep understanding of both server- and client-side environments. Experience creating and publishing private NPM packages.'
     },
     {
       title: 'HTML5/CSS3',
