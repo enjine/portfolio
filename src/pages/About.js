@@ -6,16 +6,6 @@ import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
 import Service from '../components/Service'
 
-/*
-<span className="mi-about-image-icon">
-  <Icon.ZoomIn />
-</span>
-<FsLightbox
-  toggler={toggler}
-  sources={[information.aboutImageLg]}
-/>
-*/
-
 const About = () => {
   const [toggler, setToggler] = useState(false)
   const [information, setInformation] = useState('')
@@ -73,13 +63,16 @@ const About = () => {
                     </li>
                   )}
                 </ul>
-                <p>I solve problems and work well with others.</p>
+                <p>I write code.</p>
+                <p>I bring people together.</p>
+                <p>I solve problems and practice empathy.</p>
                 <p>
-                  I listen well, communicate clearly and am excellent at
+                  I listen well, communicate clearly, and am excellent at
                   translating the non-technical to technical and vice-versa.
                 </p>
-                <p>I bring people together.</p>
-                <p>I love a challenge, asking questions, and writing code.</p>
+                <p>
+                  I love a challenge, asking questions, and learning new things.
+                </p>
 
                 <a
                   href={information.cvfile}
@@ -94,7 +87,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mi-service-area mi-section mi-padding-top">
+      <div className="mi-service-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="What I Do" />
           <div className="mi-service-wrapper">

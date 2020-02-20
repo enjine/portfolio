@@ -32,7 +32,7 @@ const database = {
       title: 'Team Culture',
       icon: 'grow',
       details:
-        "Hiring, managing, and retaining distributed engineering teams is my strong suit. Every team needs to develop it's own identity. I build strong, accountable, unified teams founded on trust and empathy."
+        "Hiring, managing, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate it's own identity; I provide a space for it to grow. I build strong, accountable, unified teams founded on trust and empathy."
     },
     {
       title: 'Domain Language',
@@ -73,13 +73,13 @@ const database = {
       title: 'Docker/Kubernetes',
       icon: 'ship',
       details:
-        'Experience working with large clusters of containerized microservices using managed Kubernetes on AWS.'
+        'Experience working with large clusters of containerized microservices using managed Kubernetes (EKS) on AWS.'
     },
     {
       title: 'CI/CD',
       icon: 'rocket',
       details:
-        'Delivery becomes a competitive advantage when your teams are able to ship high quality work quickly. I understand what is needed to assemble a pipeline that builds, tests, and deploys projects into a cluster, but also fails-fast if quality standards are not met.'
+        'Delivery becomes a competitive advantage when your teams are able to ship high-quality work quickly. I understand what is needed to assemble a pipeline that builds, tests, and deploys projects into a cluster, but also fails-fast if quality standards are not met.'
     },
     {
       title: 'Regulatory Compliance',
@@ -158,9 +158,14 @@ const database = {
       id: 3,
       title: 'Ultrastar/LiveNation',
       subtitle:
-        "Official fanclub and advance ticketing platform for touring artists. Ultrastar Entertainment was founded in 1998 by David Bowie to create artist-powered, fan-driven internet communities. In 2007, David's pioneering community platform was purchased by Live Nation and continued to actualize his vision of artist-powered, fan-driven experiences.",
+        "Official fanclub and advance ticketing platform for touring artists. Ultrastar Entertainment was founded in 1998 by David Bowie to create artist-powered, fan-driven internet communities. In 2007, David's pioneering community platform was purchased by Live Nation where they continued to actualize his vision of artist-powered, fan-driven experiences.",
       imageUrl: '/images/portfolio-image-3.png',
-      largeImageUrl: ['/images/portfolio-image-3-lg.png'],
+      largeImageUrl: [
+        '/images/portfolio-image-3-lg.png',
+        '/images/portfolio-image-3a-lg.png',
+        '/images/portfolio-image-3b-lg.png',
+        '/images/portfolio-image-3c-lg.png'
+      ],
       url: 'https://www.livenationentertainment.com/'
     }
   ],
