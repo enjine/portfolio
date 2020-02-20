@@ -5,7 +5,7 @@ const database = {
     firstName: 'Alessandro',
     lastName: 'Di Candia',
     aboutContent:
-      'Product-centric Technology Leader. Specialization in managing distributed teams, front-end engineering, software quality, and CI/CD. Growth mindset for startups and product development/innovation.',
+      'Product-centric Technology Leader. Expertise in leading distributed teams, front-end engineering, software quality, and CI/CD. Growth mindset for startups and product development/innovation.',
     age: 42,
     phone: '',
     nationality: '',
@@ -32,7 +32,7 @@ const database = {
       title: 'Team Culture',
       icon: 'grow',
       details:
-        "Hiring, managing, and retaining distributed engineering teams is my strong suit. Every team needs to develop it's own identity. I understand the value of on-site time as well as work-from-home time. I build strong, accountable, unified teams founded on trust."
+        "Hiring, managing, and retaining distributed engineering teams is my strong suit. Every team needs to develop it's own identity. I build strong, accountable, unified teams founded on trust and empathy."
     },
     {
       title: 'Domain Language',
@@ -44,7 +44,7 @@ const database = {
       title: 'Platform Architecture',
       icon: 'cloudnetwork',
       details:
-        '20 years of experience designing scalable, distributed systems for growth. Whether acting as manager, tech lead, or individual contributor, my approach is the same; gain a deep understanding of the problem space and strive for simple solutions.'
+        '20 years of experience designing scalable, distributed systems for growth. Whether acting as VP, Manager, Tech Lead, or Individual Contributor, my approach is the same; gain a deep understanding of the problem space and strive for simple solutions.'
     },
     {
       title: 'Responsive Web Applications',
@@ -168,15 +168,6 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: 'Feb 2008 - Present',
-        position: 'Member',
-        company: 'Bitwise',
-        location: 'Remote',
-        details:
-          'Single-member LLC created to offer freelance consulting services to startups and small businesses in NYC, Brooklyn, DC, Philadelphia, and CA. Developed a range of web-based software projects for high-profile clients and startups.'
-      },
-      {
-        id: 2,
         year: 'Aug 2017 - Jan 2020',
         position: 'VP Technology, Digital Platform',
         company: 'Group1001',
@@ -185,13 +176,22 @@ const database = {
           "VP of Tech for an internal startup creating a direct-to-consumer annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver just in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams. Individual contributions as a UI Engineer using React, Redux, Sagas, and Aphrodite."
       },
       {
-        id: 3,
+        id: 2,
         year: 'Mar 2014 - Aug 2017',
         position: 'Principal Engineer',
         company: 'Synacor',
         location: 'Remote',
         details:
           'Joined as a UI Tech Lead and evolved into a cross-team consulting engineer. Worked across several high-profile projects within the company. Temporarily managed our distributed team during a period of re-organization.'
+      },
+      {
+        id: 3,
+        year: 'Feb 2008 - Mar 2014',
+        position: 'Member',
+        company: 'Bitwise',
+        location: 'Remote',
+        details:
+          'Single-member LLC created to offer freelance consulting services to startups and small businesses in NYC, Brooklyn, DC, Philadelphia, and CA. Developed a range of web-based software projects for high-profile clients and startups.'
       },
       {
         id: 4,
@@ -210,7 +210,7 @@ const database = {
         position: 'Auction Committee Chair',
         company: 'River Valley Waldorf School',
         details:
-          'Organized, planned and executed the largest annual fundraiser. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations, and produce digital documentation operationalizing the process for future committees; a first in the history of the school.'
+          'Organized, planned and executed the annual auction fundraiser, which is also the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations, and produce digital documentation operationalizing the process for future committees; a first in the history of the school.'
       },
       {
         id: 2,
@@ -218,7 +218,7 @@ const database = {
         position: 'IT Committee Chair',
         company: 'River Valley Waldorf School',
         details:
-          'Helped update internal technology infrastructure, helped faculty and staff with tech-related operations.'
+          'Revamped internal IT infrastructure including email, domain controller and website. Helped maintain smooth IT operations for faculty and staff.'
       }
     ],
     educationExperience: [
@@ -234,10 +234,12 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'Lorem Ipsum Dolor',
-      imageUrl: '/images/blog-image-1.jpg',
-      content: '',
-      createTime: 'January 20th 2019'
+      title: 'Open Letter',
+      featuredImage: '/images/blog-image-1.jpg',
+      filesource: '../../blog/test.md',
+      createDay: '20',
+      createMonth: 'February',
+      createYear: '2020'
     }
   ],
   contactInfo: {
@@ -279,5 +281,10 @@ Mock.onGet('/api/experience').reply(config => {
 
 Mock.onGet('/api/contactinfo').reply(config => {
   const response = database.contactInfo
+  return [200, response]
+})
+
+Mock.onGet('/api/blog').reply(config => {
+  const response = database.blogs
   return [200, response]
 })

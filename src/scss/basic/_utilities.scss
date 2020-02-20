@@ -37,6 +37,14 @@
   margin-top: 30px;
 }
 
+.mt-50-reverse {
+  margin-top: -50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mi-padding-top {
   padding-top: 120px;
 
@@ -75,6 +83,7 @@
   z-index: -1;
 
   span {
+    width: 1px;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -122,9 +131,9 @@
   }
 }
 
-.size-md[class^="lni-"],
-.size-lg[class^="lni-"],
-.size-sm[class^="lni-"],
-.size-xs[class^="lni-"] {
+.size-md[class^='lni-'],
+.size-lg[class^='lni-'],
+.size-sm[class^='lni-'],
+.size-xs[class^='lni-'] {
   font-size: inherit !important;
 }
