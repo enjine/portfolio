@@ -142,7 +142,13 @@ const database = {
       subtitle:
         'Fully digital retail annuity e-commerce platform. Purchase fixed annuities direct from the issuer, without an agent, on any device.',
       imageUrl: '/images/portfolio-image-1.png',
-      largeImageUrl: ['/images/portfolio-image-1-lg.png'],
+      largeImageUrl: [
+        '/images/portfolio-image-1-lg.png',
+        '/images/portfolio-image-1a-lg.png',
+        '/images/portfolio-image-1b-lg.png',
+        '/images/portfolio-image-1c-lg.png',
+        '/images/portfolio-image-1d-lg.png'
+      ],
       url: 'https://gainbridge.life'
     },
     {
