@@ -35,6 +35,12 @@ const database = {
         "Hiring, managing, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate it's own identity; I provide a space for it to grow. I build strong, accountable, unified teams founded on trust and empathy."
     },
     {
+      title: 'User-Centered',
+      icon: 'users',
+      details:
+        'Users and customers are first-class citizens in the technology ecosystem. Human or machine, they are on the receiving end of everything our teams do. I respect their position tremendously and it is a significant factor for me when making business or technology decisions.'
+    },
+    {
       title: 'Domain Language',
       icon: 'write',
       details:
