@@ -32,25 +32,31 @@ const database = {
       title: 'Team Culture',
       icon: 'grow',
       details:
-        "Hiring, managing, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate it's own identity; I provide a space for it to grow. I build strong, accountable, unified teams founded on trust and empathy."
+        'Hiring, managing, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate its own identity; I provide a healthy space for it to grow. I build strong, accountable, unified teams founded on trust and empathy.'
     },
     {
       title: 'User-Centered',
       icon: 'users',
       details:
-        'Users and customers are first-class citizens in the technology ecosystem. Human or machine, they are on the receiving end of everything our teams do. I respect their position tremendously and it is a significant factor for me when making business or technology decisions.'
+        'Users and customers are first-class citizens in the technology ecosystem. Human or machine, they are on the receiving end of everything our teams do. I respect their position tremendously, and it is a significant factor for me when making business or technology decisions.'
     },
     {
       title: 'Domain Language',
       icon: 'write',
       details:
-        'To collaboratively solve problems and create effective solutions, teams must share an understanding of both the problem and the solution. I have successfully introduced Domain Driven Design (DDD) as one way to avoid many of the struggles that befall cross-functional teams when defining technical requirements and acceptance criteria.'
+        'To collaboratively solve problems and create effective solutions, teams must share an understanding of both the problem and the solution. I have successfully introduced Domain-Driven Design (DDD) as one way to avoid many of the struggles that befall cross-functional teams when defining technical requirements and acceptance criteria.'
     },
     {
       title: 'Platform Architecture',
       icon: 'cloudnetwork',
       details:
-        '20 years of experience designing scalable, distributed systems for growth. Whether acting as VP, Manager, Tech Lead, or Individual Contributor, my approach is the same; gain a deep understanding of the problem space and strive for simple solutions.'
+        '20 years of experience designing scalable distributed systems for growth. Whether acting as VP, Manager, Tech Lead, or Individual Contributor, my approach is the same; gain a deep understanding of the problem space and strive for simple solutions.'
+    },
+    {
+      title: 'Event Driven Design',
+      icon: 'bolt-alt',
+      details:
+        "In my experience building UI's and complex systems, event-driven design has proven to be a very effective, semantic way to loosely-couple components. I have extensive experience using Flux, Event Sourcing, and CQRS patterns to construct complex UI applications and distributed systems."
     },
     {
       title: 'Responsive Web Applications',
@@ -62,7 +68,7 @@ const database = {
       title: 'Java/JVM',
       icon: 'java',
       details:
-        'Experience with compiled languages on the JVM including Java, Scala, and Kotlin and with Maven and Gradle as build tools.'
+        'Experience with compiled languages on the JVM including Java, Scala, and Kotlin with Maven and Gradle as build tools.'
     },
     {
       title: 'JavaScript',
@@ -85,7 +91,7 @@ const database = {
       title: 'CI/CD',
       icon: 'rocket',
       details:
-        'Delivery becomes a competitive advantage when your teams are able to ship high-quality work quickly. I understand what is needed to assemble a pipeline that builds, tests, and deploys projects into a cluster, but also fails-fast if quality standards are not met.'
+        'Delivery becomes a competitive advantage when your teams can ship high-quality work quickly. I understand what is needed to assemble a pipeline that builds, tests, and deploys projects into a cluster, but also fails-fast if quality standards are not met.'
     },
     {
       title: 'Regulatory Compliance',
@@ -97,14 +103,13 @@ const database = {
       title: 'INFOSEC',
       icon: 'shield',
       details:
-        'Modern codebases require modern security practices. I understand what is required to maintain systems hardened against vulnerabilities and keep data secure at rest, over the wire, and when shared with trusted 3rd parties.'
+        'Modern systems require modern security practices. I understand what is required to keep, networks secure, applications free from vulnerabilities, data protected at rest, over the wire, and even when shared with trusted 3rd parties.'
     }
   ],
   reviews: [
     {
       id: 1,
-      content:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.',
+      content: '',
       author: {
         name: '',
         designation: ''
@@ -190,7 +195,7 @@ const database = {
         company: 'Group1001',
         location: 'Remote',
         details:
-          "VP of Tech for an internal startup creating a direct-to-consumer annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver just in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams. Individual contributions as a UI Engineer using React, Redux, Sagas, and Aphrodite."
+          "VP of Tech for an internal startup creating a direct-to-consumer annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver just in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams. Individual contributions as a UI Engineer using React, Redux, Redux-Sagas, and Aphrodite."
       },
       {
         id: 2,
@@ -227,7 +232,7 @@ const database = {
         position: 'Auction Committee Chair',
         company: 'River Valley Waldorf School',
         details:
-          'Organized, planned and executed the annual auction fundraiser, which is also the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations, and produce digital documentation operationalizing the process for future committees; a first in the history of the school.'
+          'Organized, planned and executed the annual auction fundraiser, which is also the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations. Produced a digital playbook documenting the process for future committees; a first in the history of the school.'
       },
       {
         id: 2,
@@ -235,7 +240,7 @@ const database = {
         position: 'IT Committee Chair',
         company: 'River Valley Waldorf School',
         details:
-          'Revamped internal IT infrastructure including email, domain controller and website. Helped maintain smooth IT operations for faculty and staff.'
+          'Revamped internal IT infrastructure including email, domain controller and website. Helped maintain smooth daily IT operations for faculty and staff.'
       }
     ],
     educationExperience: [
@@ -244,7 +249,7 @@ const database = {
         year: '1996 - 2000',
         graduation: 'BA, Advertising/Communications',
         university: 'Penn State University',
-        details: 'Minors in Business Administration and Italian. Peer Mentor.'
+        details: 'Minors in Business Management and Italian. Peer Mentor.'
       }
     ]
   },
