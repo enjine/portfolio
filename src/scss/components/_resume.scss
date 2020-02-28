@@ -19,15 +19,15 @@
     position: relative;
 
     &::before {
-      content: "";
-      position: absolute;
-      left: -9px;
-      top: 6px;
-      height: 15px;
-      width: 15px;
-      border-radius: 100px;
       background: $color-bg-body;
       border: 3px solid $color-border;
+      border-radius: 100px;
+      content: '';
+      height: 15px;
+      left: -9px;
+      position: absolute;
+      top: 6px;
+      width: 15px;
     }
   }
 
@@ -41,15 +41,21 @@
   }
 
   &-company {
-    color: #ffffff;
+    color: $color-secondary;
+  }
+
+  &-achievements {
+    color: $color-secondary;
+    margin: 0 0 0 20px;
+    padding: 10px 0;
   }
 
   &-details {
-    position: relative;
     padding-left: 50px;
+    position: relative;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       left: 0;
       top: 15px;

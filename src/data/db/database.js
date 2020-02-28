@@ -25,7 +25,7 @@ const database = {
     brandImage: '/images/brand-image.png',
     aboutImage: '/images/comin-atcha.gif',
     aboutImageLg: '/images/about-image-lg.png',
-    cvfile: '/files/Alessandro-Di-Candia-CV-2020-final.pdf'
+    cvfile: '/files/ADiCandia2020.pdf'
   },
   services: [
     {
@@ -192,10 +192,22 @@ const database = {
         id: 1,
         year: 'Aug 2017 - Jan 2020',
         position: 'VP Technology, Digital Platform',
-        company: 'Group1001',
+        company: 'Group1001 / Gainbridge Life',
         location: 'Remote',
+        achievements: [
+          'Oversaw all tech-related aspects for launching a direct-to-consumer digital brand and e-commerce platform.',
+          'Hired, motivated, and retained a team of 10 engineers which represented 50% of the company’s staff.',
+          'Established career growth paths for engineering team members, organized team off-sites and attendance at conferences.',
+          'Formalized QA processes during sprints and releases resulting in consistent bi-weekly releases and a reduction in production bugs of 10% release-over-release.',
+          'Increased velocity by 30% by introducing domain-driven design (DDD) as a method of improving cross-team communication and estimation accuracy.',
+          'Decreased open bugs by 50% within 6 months of transitioning the project from 100% agency to 100% internal team.',
+          'Rolled out an architecture redesign in parallel to the existing system gradually sunsetting the old services reducing technical debt by 30%.',
+          'Implemented monitoring and telemetry to measure and inform establishment of KPI’s and baselines for customer- and system-facing SLAs.',
+          'Established tech-related processes for handling incident and change management, internal audit, and customer service.',
+          'Reduced AWS infrastructure costs by 30% by moving to reserved instances.'
+        ],
         details:
-          "VP of Tech for an internal startup creating a direct-to-consumer annuity sales platform. Responsible for all technology decisions and leadership. Reporting to CXO, managed delivery across multiple agency teams of 10+ people simultaneously, aligning each team's work to deliver just in time for integration. Built and managed an internal team of 10 engineers. Procured talent and conducted interviews for both Product and Engineering teams. Introduced DDD as a method of establishing shared understanding across teams. Individual contributions as a UI Engineer using React, Redux, Redux-Sagas, and Aphrodite."
+          'VP of Tech for an internally-funded startup launching a direct-to-consumer annuity platform that grew from $0/week to $1MM/week in sales in under 12 months. Responsible for technology strategy, decisioning and leadership. Reporting to CXO, managed delivery across multiple agency and internal teams. Collaborated directly with Product, Marketing, Customer Service, Compliance, and domain experts to deliver solutions aligned with the company’s strategic vision. Cultivated an honest, respectful work environment as an empathetic servant leader.'
       },
       {
         id: 2,
@@ -203,26 +215,47 @@ const database = {
         position: 'Principal Engineer',
         company: 'Synacor',
         location: 'Remote',
+        achievements: [
+          'Created UI component library used across the company leading to 10% increase in velocity on all UI teams.',
+          'Fulfilled role of Engineering Manager during a reorganization period enabling engineering teams to continue to operate while lowering overall operating costs.',
+          'Created an onboarding process for new employees and contractors that reduced total time to first commit by 40%.',
+          'Acted as consulting UI engineer across teams when expertise was needed but open seats were unfilled resulting in higher productivity with reduced cost for those teams.',
+          'Acted as a mentor to teammates who were not UI Engineers; teaching them the skills and concepts needed to work with the codebase, nearly doubling our team’s capacity.',
+          'Established code style and best practices and enforced those standards in code reviews resulting in higher-quality code across the team.'
+        ],
         details:
-          'Joined as a UI Tech Lead and evolved into a cross-team consulting engineer. Worked across several high-profile projects within the company. Temporarily managed our distributed team during a period of re-organization.'
+          'Acted as interim engineering manager in absence of that role being filled, but predominantly contributed as a full-stack front-end engineer on top of a SOA backend. Consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed. Work done primarily in JavaScript/HTML/CSS, Java, Scala.'
       },
       {
         id: 3,
-        year: 'Feb 2008 - Mar 2014',
-        position: 'Member',
+        year: 'Feb 2009 - Mar 2014',
+        position: 'CEO',
         company: 'Bitwise',
         location: 'Remote',
+        achievements: [
+          'Fulfilled all roles for business operations: sales, marketing, client relations, delivery, and accounting.',
+          'Partnered with design firms to create brands for SMB’s; developed SEO and search campaigns matched to the positioning strategy.',
+          'Successfully procured and retained a roster of clients for multiple long-term contracts.',
+          'Planned, estimated, and executed various custom software solutions in both public and private sectors spanning music, education, health, government offices, food, and records archiving.'
+        ],
         details:
-          'Single-member LLC created to offer freelance consulting services to startups and small businesses in NYC, Brooklyn, DC, Philadelphia, and CA. Developed a range of web-based software projects for high-profile clients and startups.'
+          'Provided technology consulting and software development services to startups and small businesses in NYC, Brooklyn, DC, Philadelphia, and CA. Work done primarily in JavaScript/HTML/CSS on the LAMP stack.'
       },
       {
         id: 4,
-        year: 'May 2000 - Feb 2008',
+        year: 'May 2000 - Feb 2009',
         position: 'Director, Product Engineering',
         company: 'Ultrastar / LiveNation',
         location: 'NYC / Brooklyn',
+        achievements: [
+          'Took ownership of entire codebase reducing agency and contractor costs by 70%.',
+          'Streamlined development and deployment process reducing delivery time by 50%.',
+          'Proposed and developed new products and features directly responsible for new client acquisitions.',
+          'Directed design and development teams in delivery of client work and with Client Managers in setting expectations resulting in operational excellence across the entire company.',
+          'Conducted technical screenings and interviews expediting the hiring process from months to weeks.'
+        ],
         details:
-          'Pioneered development of a fanclub and advance ticket sales platform for David Bowie, The Rolling Stones, The Who, and many other LiveNation artists. Directed engineering team in delivery of client work, led concepting and development of innovative products to attract new artists to the company.'
+          'Tech director for a subscription-based official fanclub and advance-ticketing platform for David Bowie, The Rolling Stones, The Who, Madonna, Mariah Carey, and many others. Player/coach for a team of 5+ designers and developers. Responsible for production and delivery of client work. Created workflows and design patterns to allow for high reusability across clients. Organized and executed exclusive members-only experiences and live webcasts. Work done in JavaScript/HTML/CSS on the LAMP stack.'
       }
     ],
     volunteerExperience: [
@@ -249,7 +282,8 @@ const database = {
         year: '1996 - 2000',
         graduation: 'BA, Advertising/Communications',
         university: 'Penn State University',
-        details: 'Minors in Business Management and Italian. Peer Mentor.'
+        details:
+          '3.8 GPA. Minors in Business Management and Italian. Peer Mentor.'
       }
     ]
   },

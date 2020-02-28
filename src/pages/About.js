@@ -63,15 +63,27 @@ const About = () => {
                     </li>
                   )}
                 </ul>
-                <p>I write code.</p>
-                <p>I bring people together.</p>
-                <p>I solve problems and practice empathy.</p>
+                <p>I decide with data.</p>
+                <p>
+                  I bring people together and practice empathy as a servant
+                  leader.
+                </p>
+                <p>
+                  I lead technical teams toward well-architected solutions while
+                  keeping to the timeline.
+                </p>
                 <p>
                   I listen well, communicate clearly, and am excellent at
                   translating the non-technical to technical and vice-versa.
                 </p>
                 <p>
-                  I love a challenge, asking questions, and learning new things.
+                  I understand the myriad relationships between technology,
+                  business goals, marketing strategy, product, branding, and
+                  customers.
+                </p>
+                <p>
+                  I strive for growth and empower those with whom I interact to
+                  do the same.
                 </p>
 
                 <a

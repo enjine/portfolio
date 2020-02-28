@@ -1,5 +1,13 @@
 import React from 'react'
 
+const Achievements = ({ items }) => (
+  <ul className="mi-resume-achievements">
+    {items.map(a => (
+      <li>{a}</li>
+    ))}
+  </ul>
+)
+
 const Resume = props => {
   const {
     year,
@@ -8,6 +16,7 @@ const Resume = props => {
     location,
     university,
     company,
+    achievements,
     details
   } = props.resumeData
   return (
@@ -22,6 +31,7 @@ const Resume = props => {
           <span className="mi-resume-location">{location}</span>
         </h6>
         <p>{details}</p>
+        {achievements && <Achievements items={achievements} />}
       </div>
     </div>
   )
