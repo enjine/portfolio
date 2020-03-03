@@ -234,7 +234,7 @@ const database = {
           'Increased code-quality within my team by establishing coding standards and strictly enforcing them during code reviews.'
         ],
         details:
-          'Looking to expand my experience into more corporate/enterprise environments, I took a contract with Synacor as a Frontend Engineer on a fully distributed team. Technical contributions were predominantly full-stack front-end on top of a SOA backend, full CI pipeline and a formal change management process across all engineering teams. Shortly before my contract was up, I was asked to join as an FTE and take on the responsibilities of Tech Lead. I agreed, and shortly thereafter was being asked to fulfill additional roles as needed. I consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed and acted as interim Engineering Manager in absence of the role being filled. During my time here I was able to continue my passion for frontend work and creating great user experiences, but I was also given the opportunity to exercise my leadership skills in a formal management role.'
+          'Looking to expand my experience into more corporate/enterprise environments, I took a contract with Synacor as a Frontend Engineer on a fully distributed team. My technical contributions were predominantly full-stack front-end on top of a SOA backend. We had a robust CI pipeline and a formal change management process for releases that needed to be coordinated across all engineering teams. Shortly before my contract was up, I was asked to join as an FTE and take on the responsibilities of Tech Lead. I agreed, and in time was asked to fulfill additional roles as needed. I consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed and acted as interim Engineering Manager in absence of the role being filled. During my time here I was able to continue my passion for frontend work and creating great user experiences, but I was also given the opportunity to exercise my leadership skills in a formal management role.'
       },
       {
         id: 3,
@@ -296,7 +296,7 @@ const database = {
         graduation: 'BA, Advertising/Communications',
         university: 'Penn State University',
         achievements: [
-          '3.8 GPA.',
+          "3.8 GPA, Dean's list 6 of 8 semesters",
           'Peer Mentor',
           'Work/study as Webmaster for College of Communications'
         ],
