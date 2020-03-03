@@ -2,8 +2,8 @@ import React from 'react'
 
 const Achievements = ({ items }) => (
   <ul className="mi-resume-achievements">
-    {items.map(a => (
-      <li>{a}</li>
+    {items.map((a, i) => (
+      <li key={i}>{a}</li>
     ))}
   </ul>
 )

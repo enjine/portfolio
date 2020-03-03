@@ -208,19 +208,18 @@ const database = {
         company: 'Group1001 / Gainbridge Life',
         location: 'Remote',
         achievements: [
-          'Oversaw all tech-related aspects for launching a direct-to-consumer digital brand and e-commerce platform.',
-          'Hired, motivated, and retained a team of 10 engineers which represented 50% of the company’s staff.',
-          'Established career growth paths for engineering team members, organized team off-sites and attendance at conferences.',
-          'Formalized QA processes during sprints and releases resulting in consistent bi-weekly releases and a reduction in production bugs of 10% release-over-release.',
-          'Increased velocity by 30% by introducing domain-driven design (DDD) as a method of improving cross-team communication and estimation accuracy.',
-          'Decreased open bugs by 50% within 6 months of transitioning the project from 100% agency to 100% internal team.',
-          'Rolled out an architecture redesign in parallel to the existing system gradually sunsetting the old services reducing technical debt by 30%.',
+          'Hired and retained a distributed team of 10 engineers; effectively managing 50% of the company’s staff.',
+          'Established career growth paths for engineering team members, organized team off-sites and arranged for attendance at conferences.',
+          'Established processes for handling incident and change management, internal audit, and customer service.',
           'Implemented monitoring and telemetry to measure and inform establishment of KPI’s and baselines for customer- and system-facing SLAs.',
-          'Established tech-related processes for handling incident and change management, internal audit, and customer service.',
-          'Reduced AWS infrastructure costs by 30% by moving to reserved instances.'
+          '10% net reduction of production bugs release-over-release by implementing formalized QA processes during sprints and releases.',
+          '25-30% increase in velocity by introducing domain-driven design.',
+          'Decreased open bugs by 50% within 6 months.',
+          'Reduced technical debt by 30% by commissioning an architecture redesign and deploying it in parallel, gradually sunsetting problematic services.',
+          'Delivered a 30% savings in AWS costs.'
         ],
         details:
-          'VP of Tech for an internally-funded startup launching a direct-to-consumer annuity platform that grew from $0/week to $1MM/week in sales in under 12 months. Responsible for technology strategy, decisioning and leadership. Reporting to CXO, managed delivery across multiple agency and internal teams. Collaborated directly with Product, Marketing, Customer Service, Compliance, and domain experts to deliver solutions aligned with the company’s strategic vision. Cultivated an honest, respectful work environment as an empathetic servant leader.'
+          'VP of Tech for an internally-funded startup launching a direct-to-consumer annuity platform. Responsible for technology strategy, decisioning and leadership. Supported growth from $0/week to $1MM+/week in sales in under 12 months. Reporting to CXO, coordinated delivery across multiple agency and internal teams. Collaborated directly with Executives, Product, Marketing, Customer Service, Compliance, and domain experts to deliver solutions aligned with the strategic vision. Introduced domain-driven-design (DDD) as a method of improving cross-functional communication, estimation accuracy, and product quality.'
       },
       {
         id: 2,
@@ -229,30 +228,29 @@ const database = {
         company: 'Synacor',
         location: 'Remote',
         achievements: [
-          'Created UI component library used across the company leading to 10% increase in velocity on all UI teams.',
-          'Fulfilled role of Engineering Manager during a reorganization period enabling engineering teams to continue to operate while lowering overall operating costs.',
-          'Created an onboarding process for new employees and contractors that reduced total time to first commit by 40%.',
-          'Acted as consulting UI engineer across teams when expertise was needed but open seats were unfilled resulting in higher productivity with reduced cost for those teams.',
-          'Acted as a mentor to teammates who were not UI Engineers; teaching them the skills and concepts needed to work with the codebase, nearly doubling our team’s capacity.',
-          'Established code style and best practices and enforced those standards in code reviews resulting in higher-quality code across the team.'
+          '10% increase in velocity across all company UI teams using a UI component library I co-authored.',
+          'Reduced time to first commit during onboarding by 40% by creating scripts and documentation for new employees and contractors.',
+          'Increased my team’s capacity by mentoring teammates who were not UI Engineers; teaching them the key skills and concepts needed to work with the codebase.',
+          'Increased code-quality within my team by establishing coding standards and strictly enforcing them during code reviews.'
         ],
         details:
-          'Acted as interim engineering manager in absence of that role being filled, but predominantly contributed as a full-stack front-end engineer on top of a SOA backend. Consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed. Work done primarily in JavaScript/HTML/CSS, Java, Scala.'
+          'Looking to expand my experience into more corporate/enterprise environments, I took a contract with Synacor as a Frontend Engineer on a fully distributed team. Technical contributions were predominantly full-stack front-end on top of a SOA backend, full CI pipeline and a formal change management process across all engineering teams. Shortly before my contract was up, I was asked to join as an FTE and take on the responsibilities of Tech Lead. I agreed, and shortly thereafter was being asked to fulfill additional roles as needed. I consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed and acted as interim Engineering Manager in absence of the role being filled. During my time here I was able to continue my passion for frontend work and creating great user experiences, but I was also given the opportunity to exercise my leadership skills in a formal management role.'
       },
       {
         id: 3,
         year: 'Feb 2009 - Mar 2014',
-        position: 'CEO',
+        position: 'Founder',
         company: 'Bitwise',
         location: 'Remote',
         achievements: [
-          'Fulfilled all roles for business operations: sales, marketing, client relations, delivery, and accounting.',
-          'Partnered with design firms to create brands for SMB’s; developed SEO and search campaigns matched to the positioning strategy.',
+          'Fulfilled all roles for business operations: sales, marketing, client relations, project management, engineering, and accounting.',
           'Successfully procured and retained a roster of clients for multiple long-term contracts.',
-          'Planned, estimated, and executed various custom software solutions in both public and private sectors spanning music, education, health, government offices, food, and records archiving.'
+          'Partnered with design firms to create brands for SMB’s; developed SEO and search campaigns matched to the positioning strategy.',
+          'Planned, estimated, and executed various custom software solutions in both public and private sectors spanning music, education, health, government, food, and records archiving.',
+          'Demonstrated year-over-year growth between 5% and 7%.'
         ],
         details:
-          'Provided technology consulting and software development services to startups and small businesses in NYC, Brooklyn, DC, Philadelphia, and CA. Work done primarily in JavaScript/HTML/CSS on the LAMP stack.'
+          'Having learned much of what it takes to be successful in professional services during my first 9 years of employment, I started my own consulting company where I succeeded (and failed) by my own accord – using each experience as an opportunity for growth. I performed CTO/Technical co-founder duties for several startups while also architecting and coding the applications from scratch and managing offshore teams of mobile developers. I was also hired into several agencies to contribute extra engineering capacity and train their teams to use new technologies, coding best-practices and delivery workflows. Even after my contracts had ended, I remained in touch with several clients, hearing much positive feedback about the residual effects of our engagement.'
       },
       {
         id: 4,
@@ -261,14 +259,16 @@ const database = {
         company: 'Ultrastar / LiveNation',
         location: 'NYC / Brooklyn',
         achievements: [
-          'Took ownership of entire codebase reducing agency and contractor costs by 70%.',
-          'Streamlined development and deployment process reducing delivery time by 50%.',
-          'Proposed and developed new products and features directly responsible for new client acquisitions.',
-          'Directed design and development teams in delivery of client work and with Client Managers in setting expectations resulting in operational excellence across the entire company.',
-          'Conducted technical screenings and interviews expediting the hiring process from months to weeks.'
+          'Reduced agency and contractor costs by 70% by singlehandedly taking ownership of entire codebase. ',
+          'Reduced delivery time by 50% by normalizing development and deployment processes.',
+          'Directly affected new client acquisition by prototyping new products and features.',
+          'Directed design and development teams in delivery of client work.',
+          'Accelerated the hiring process 4x by creating a questionnaire and battery of tests and for technical screenings and interviews.',
+          'Achieved higher operational excellence by assisting client managers in setting expectations and providing teams a normalized framework within which to operate.',
+          'Increased employee happiness by organizing weekly team-building events.'
         ],
         details:
-          'Tech director for a subscription-based official fanclub and advance-ticketing platform for David Bowie, The Rolling Stones, The Who, Madonna, Mariah Carey, and many others. Player/coach for a team of 5+ designers and developers. Responsible for production and delivery of client work. Created workflows and design patterns to allow for high reusability across clients. Organized and executed exclusive members-only experiences and live webcasts. Work done in JavaScript/HTML/CSS on the LAMP stack.'
+          'After undergrad, I began work as webmaster at a startup founded by David Bowie. Part ISP, part subscription-fanclub/advance-ticketing platform. Early on, I was called upon to interact directly with fans as well as artists/clients. Clients included David himself, The Rolling Stones, The Who, Madonna, Mariah Carey, The Police, AC/DC and many others. My solid handling of those responsibilities allowed me to rapidly evolve into more of a player/coach as the team grew to 5+ designers and developers. I was responsible for ensuring our team delivered all client work as well as prototyping and pitching new features to prospective clients. Out of necessity, I invented my own processes, workflows and libraries to organize work, set expectations with client managers, and provide engineers a high level of reusability and extensibility between projects. I also organized and executed exclusive members-only experiences and live webcasts from venues.'
       }
     ],
     volunteerExperience: [
@@ -295,8 +295,12 @@ const database = {
         year: '1996 - 2000',
         graduation: 'BA, Advertising/Communications',
         university: 'Penn State University',
-        details:
-          '3.8 GPA. Minors in Business Management and Italian. Peer Mentor.'
+        achievements: [
+          '3.8 GPA.',
+          'Peer Mentor',
+          'Work/study as Webmaster for College of Communications'
+        ],
+        details: 'Minors in Business Management and Italian.'
       }
     ]
   },
