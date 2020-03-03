@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "dist": false
+  },
+  "search.exclude": {
+    "dist": true
+  }
+}

@@ -2,22 +2,29 @@
  * Progress Bar
  */
 
-.mi-progress{
-  &-title{
+.mi-progress {
+  &-title {
     font-weight: 600;
     margin-bottom: 0;
   }
 
-  &-inner{
+  &-inner {
     display: flex;
     align-items: center;
   }
 
-  &-percentage{
+  &-percentage {
     flex: 0 0 60px;
   }
 
-  &-container{
+  &-years {
+    color: darken($color-theme, 10%);
+    flex: 0 0 60px;
+    font-size: 0.9rem;
+    padding: 0 0 0.2rem 0.5rem;
+  }
+
+  &-container {
     background: $color-border;
     display: block;
     height: 6px;
@@ -25,7 +32,7 @@
     position: relative;
   }
 
-  &-active{
+  &-active {
     position: absolute;
     left: 0;
     top: 0;

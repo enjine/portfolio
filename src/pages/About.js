@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-// import FsLightbox from 'fslightbox-react'
-// import * as Icon from 'react-feather'
 import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
 import Service from '../components/Service'
+import TrackVisibility from 'react-on-screen'
+import Progress from '../components/Progress'
 
 const About = () => {
+  const [skills, setSkills] = useState([])
+  const [totalYearsExperience, setTotalYearsExperience] = useState([])
   const [toggler, setToggler] = useState(false)
   const [information, setInformation] = useState('')
   const [services, setServices] = useState([])
@@ -16,6 +18,12 @@ const About = () => {
   }
 
   useEffect(() => {
+    axios.get('/api/skills').then(response => {
+      setSkills(response.data)
+    })
+    axios.get('/api/experience').then(response => {
+      setTotalYearsExperience(response.data.totalYears)
+    })
     axios.get('/api/information').then(response => {
       setInformation(response.data)
     })
@@ -26,7 +34,7 @@ const About = () => {
 
   return (
     <Layout>
-      <div className="mi-about-area mi-section mi-padding-top">
+      <div className="mi-about-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Who I Am" />
           <div className="row">
@@ -63,23 +71,22 @@ const About = () => {
                     </li>
                   )}
                 </ul>
-                <p>I decide with data.</p>
                 <p>
-                  I bring people together and practice empathy as a servant
-                  leader.
+                  I am focused on the customer and delivering a high-quality
+                  product.
                 </p>
+                <p>I bring people together and practice empathy.</p>
                 <p>
-                  I lead technical teams toward well-architected solutions while
-                  keeping to the timeline.
+                  I lead technical teams toward well-architected solutions that
+                  work with the timeline.
                 </p>
                 <p>
                   I listen well, communicate clearly, and am excellent at
-                  translating the non-technical to technical and vice-versa.
+                  facilitating cross-functional collaboration.
                 </p>
                 <p>
                   I understand the myriad relationships between technology,
-                  business goals, marketing strategy, product, branding, and
-                  customers.
+                  business, branding, marketing, products, and humans.
                 </p>
                 <p>
                   I strive for growth and empower those with whom I interact to
@@ -99,7 +106,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="mi-service-area mi-section mi-padding-top mi-padding-bottom">
+      <div className="mi-service-area mi-section mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="What I Do" />
           <div className="mi-service-wrapper">
@@ -111,6 +118,30 @@ const About = () => {
                 >
                   <Service content={service} />
                 </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mi-skills-area mi-section mi-padding-bottom">
+        <div className="container">
+          <Sectiontitle title="Core Competencies" />
+          <div className="mi-skills">
+            <div className="row mt-30-reverse">
+              {skills.map(skill => (
+                <TrackVisibility
+                  once
+                  className="col-lg-6 mt-30"
+                  key={skill.title}
+                >
+                  <Progress
+                    title={skill.title}
+                    percentage={
+                      skill.value || (skill.years / totalYearsExperience) * 100
+                    }
+                    years={skill.years}
+                  />
+                </TrackVisibility>
               ))}
             </div>
           </div>

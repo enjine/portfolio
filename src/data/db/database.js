@@ -5,7 +5,7 @@ const database = {
     firstName: 'Alessandro',
     lastName: 'Di Candia',
     aboutContent:
-      'Product-centric Technology Leader. Expertise in leading distributed teams, front-end engineering, software quality, and CI/CD. Growth mindset for startups and product development/innovation.',
+      'Customer-centric Technology Leader. Expertise in leading distributed teams, front-end engineering, software quality, and CI/CD. Growth mindset for startups, product development, and innovation.',
     age: 42,
     phone: '',
     nationality: '',
@@ -32,7 +32,7 @@ const database = {
       title: 'Team Culture',
       icon: 'grow',
       details:
-        'Hiring, managing, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate its own identity; I provide a healthy space for it to grow. I build strong, accountable, unified teams founded on trust and empathy.'
+        'Hiring, motivating, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate its own identity; I provide a healthy space for it to grow. I build strong, accountable, unified teams founded on trust and empathy.'
     },
     {
       title: 'User-Centered',
@@ -119,31 +119,43 @@ const database = {
   skills: [
     {
       title: 'Technology Leadership',
-      value: 100
+      years: 15
+    },
+    {
+      title: 'Senior Leadership',
+      years: 3
     },
     {
       title: 'Team Culture',
-      value: 100
+      years: 18
+    },
+    {
+      title: 'Product Development',
+      years: 10
     },
     {
       title: 'Technical Product Ownership',
-      value: 100
+      years: 20
     },
     {
       title: 'UI / Frontend Engineering',
-      value: 95
+      years: 10
     },
     {
-      title: 'Engineering Management',
-      value: 98
+      title: 'People Management',
+      years: 5
     },
     {
-      title: 'Interviewing / Hiring',
-      value: 98
+      title: 'Talent Acquisition',
+      years: 7
     },
     {
-      title: 'Cross-Disciplinary Communications',
-      value: 100
+      title: 'Business Analysis',
+      years: 15
+    },
+    {
+      title: 'Cross-Functional Communications',
+      years: 20
     }
   ],
   portfolios: [
@@ -187,6 +199,7 @@ const database = {
     }
   ],
   experience: {
+    totalYears: 20,
     workingExperience: [
       {
         id: 1,
