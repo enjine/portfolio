@@ -211,6 +211,7 @@ const database = {
           'Hired and retained a distributed team of 10 engineers; effectively managing 50% of the company’s staff.',
           'Established career growth paths for engineering team members, organized team off-sites and arranged for attendance at conferences.',
           'Established processes for handling incident and change management, internal audit, and customer service.',
+          'Introduced domain-driven-design (DDD) as a method of improving cross-functional communication, estimation accuracy, and product quality.',
           'Implemented monitoring and telemetry to measure and inform establishment of KPI’s and baselines for customer- and system-facing SLAs.',
           '10% net reduction of production bugs release-over-release by implementing formalized QA processes during sprints and releases.',
           '25-30% increase in velocity by introducing domain-driven design.',
@@ -219,7 +220,7 @@ const database = {
           'Delivered a 30% savings in AWS costs.'
         ],
         details:
-          'VP of Tech for an internally-funded startup launching a direct-to-consumer annuity platform. Responsible for technology strategy, decisioning and leadership. Supported growth from $0/week to $1MM+/week in sales in under 12 months. Reporting to CXO, coordinated delivery across multiple agency and internal teams. Collaborated directly with Executives, Product, Marketing, Customer Service, Compliance, and domain experts to deliver solutions aligned with the strategic vision. Introduced domain-driven-design (DDD) as a method of improving cross-functional communication, estimation accuracy, and product quality.'
+          'As a member of the senior leadership team, my colleagues and I collaborated to set the cultural and strategic vision for our fintech company, Gainbridge. Together, our Group1001-funded startup launched a digital, direct-to-consumer annuity platform that grew from 5 to 20 team members in 2 years and $0/week to $1MM+/week in sales in under 12 months. My role was essentially 3-fold, VP of Tech, Engineering Manager, and Technical Product Owner. This role leveraged every one of my talents and challenged me to grow to meet the demands of an aggressive fintech startup.'
       },
       {
         id: 2,
