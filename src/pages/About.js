@@ -72,13 +72,13 @@ const About = () => {
                   )}
                 </ul>
                 <p>
-                  I am focused on the customer and delivering a high-quality
-                  product.
+                  I am intensely focussed on delivering an exceptional customer
+                  experience and producing high-quality products.
                 </p>
                 <p>I bring people together and practice empathy.</p>
                 <p>
                   I lead technical teams toward well-architected solutions that
-                  work with the timeline.
+                  work within the timeline.
                 </p>
                 <p>
                   I listen well, communicate clearly, and am excellent at
