@@ -52,7 +52,7 @@ const About = () => {
               <div className="mi-about-content">
                 <h3>
                   <span className="color-theme">
-                    {information.firstName} {information.lastName}
+                    {information.firstName} <br /> {information.lastName}
                   </span>
                 </h3>
                 <ul>
