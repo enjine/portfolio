@@ -35,7 +35,7 @@ const database = {
         'Hiring, motivating, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate its own identity; I provide a healthy space for it to grow. I build strong, accountable, unified teams founded on trust and empathy.'
     },
     {
-      title: 'User-Centered',
+      title: 'User Experience',
       icon: 'users',
       details:
         'Users and customers are first-class citizens in the technology ecosystem. Human or machine, they are on the receiving end of everything our teams do. I respect their position tremendously, and it is a significant factor for me when making business or technology decisions.'
@@ -122,7 +122,7 @@ const database = {
       years: 15
     },
     {
-      title: 'Senior Leadership',
+      title: 'Executive Leadership',
       years: 3
     },
     {
@@ -187,7 +187,7 @@ const database = {
       id: 3,
       title: 'Ultrastar/LiveNation',
       subtitle:
-        "Official fanclub and advance ticketing platform for touring artists. Ultrastar Entertainment was founded in 1998 by David Bowie to create artist-powered, fan-driven internet communities. In 2007, David's pioneering community platform was purchased by Live Nation where they continued to actualize his vision of artist-powered, fan-driven experiences.",
+        "Official fanclub and advance ticketing platform for touring artists. Ultrastar Entertainment was founded in 1998 by David Bowie to create artist-powered, fan-driven internet communities. In 2007, David's pioneering community platform was purchased by Live Nation. To this day, David's vision of artist-powered, fan-driven experiences is <a href='https://en.wikipedia.org/wiki/LiveAndWell.com' target='_blank' rel='noopener noreferrer'>Live and Well</a> in their hands.",
       imageUrl: '/images/portfolio-image-3.png',
       largeImageUrl: [
         '/images/portfolio-image-3-lg.png',
@@ -207,20 +207,9 @@ const database = {
         position: 'VP Technology, Digital Platform',
         company: 'Group1001 / Gainbridge Life',
         location: 'Remote',
-        achievements: [
-          'Hired and retained a distributed team of 10 engineers; effectively managing 50% of the company’s staff.',
-          'Established career growth paths for engineering team members, organized team off-sites and arranged for attendance at conferences.',
-          'Established processes for handling incident and change management, internal audit, and customer service.',
-          'Introduced domain-driven-design (DDD) as a method of improving cross-functional communication, estimation accuracy, and product quality.',
-          'Implemented monitoring and telemetry to measure and inform establishment of KPI’s and baselines for customer- and system-facing SLAs.',
-          '10% net reduction of production bugs release-over-release by implementing formalized QA processes during sprints and releases.',
-          '25-30% increase in velocity by introducing domain-driven design.',
-          'Decreased open bugs by 50% within 6 months.',
-          'Reduced technical debt by 30% by commissioning an architecture redesign and deploying it in parallel, gradually sunsetting problematic services.',
-          'Delivered a 30% savings in AWS costs.'
-        ],
+        achievements: [],
         details:
-          'As a member of the senior leadership team, my colleagues and I collaborated to set the cultural and strategic vision for our fintech company, Gainbridge. Together, our Group1001-funded startup launched a digital, direct-to-consumer annuity platform that grew from 5 to 20 team members in 2 years and $0/week to $1MM+/week in sales in under 12 months. My role was essentially 3-fold, VP of Tech, Engineering Manager, and Technical Product Owner. This role leveraged every one of my talents and challenged me to grow to meet the demands of an aggressive fintech startup.'
+          'As a member of the senior leadership team, my colleagues and I collaborated to set the cultural and strategic vision for our fintech company, Gainbridge. Together, our Group1001-funded startup launched a digital, direct-to-consumer annuity platform that grew from 5 to 20 team members in 2 years and $1MM+/week in sales in under 12 months. As is the case in many startups, I wore multiple hats: VP of Tech, Engineering Manager, and Technical Product Owner. This role leveraged every one of my talents and challenged me to grow outside my comfort zones to meet the demands of an aggressive fintech startup.'
       },
       {
         id: 2,
@@ -228,28 +217,17 @@ const database = {
         position: 'Principal Engineer',
         company: 'Synacor',
         location: 'Remote',
-        achievements: [
-          '10% increase in velocity across all company UI teams using a UI component library I co-authored.',
-          'Reduced time to first commit during onboarding by 40% by creating scripts and documentation for new employees and contractors.',
-          'Increased my team’s capacity by mentoring teammates who were not UI Engineers; teaching them the key skills and concepts needed to work with the codebase.',
-          'Increased code-quality within my team by establishing coding standards and strictly enforcing them during code reviews.'
-        ],
+        achievements: [],
         details:
-          'Looking to expand my experience into more corporate/enterprise environments, I took a contract with Synacor as a Frontend Engineer on a fully distributed team. My technical contributions were predominantly full-stack front-end on top of a SOA backend. We had a robust CI pipeline and a formal change management process for releases that needed to be coordinated across all engineering teams. Shortly before my contract was up, I was asked to join as an FTE and take on the responsibilities of Tech Lead. I agreed, and in time was asked to fulfill additional roles as needed. I consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed and acted as interim Engineering Manager in absence of the role being filled. During my time here I was able to continue my passion for frontend work and creating great user experiences, but I was also given the opportunity to exercise my leadership skills in a formal management role.'
+          'Looking to expand my experience into more corporate/enterprise environments, I took a contract with Synacor as a Frontend Engineer on a fully distributed team. My technical contributions were predominantly full-stack front-end on top of a SOA backend. We had a robust CI pipeline and a formal change management process for releases that I helped to coordinate across all engineering teams. Shortly before my contract expired, I was asked to join as an FTE and take on the responsibilities of Tech Lead. I agreed, and in time was asked to fulfill additional roles as needed. I consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed and acted as interim Engineering Manager in absence of the role being filled. During my time here I was able to continue my passion for frontend work and creating great user experiences, but I was also given the opportunity to exercise my leadership skills in a formal management role.'
       },
       {
         id: 3,
         year: 'Feb 2009 - Mar 2014',
-        position: 'Founder',
+        position: 'Owner',
         company: 'Bitwise',
         location: 'Remote',
-        achievements: [
-          'Fulfilled all roles for business operations: sales, marketing, client relations, project management, engineering, and accounting.',
-          'Successfully procured and retained a roster of clients for multiple long-term contracts.',
-          'Partnered with design firms to create brands for SMB’s; developed SEO and search campaigns matched to the positioning strategy.',
-          'Planned, estimated, and executed various custom software solutions in both public and private sectors spanning music, education, health, government, food, and records archiving.',
-          'Demonstrated year-over-year growth between 5% and 7%.'
-        ],
+        achievements: [],
         details:
           'Having learned much of what it takes to be successful in professional services during my first 9 years of employment, I started my own consulting company where I succeeded (and failed) by my own accord – using each experience as an opportunity for growth. I performed CTO/Technical co-founder duties for several startups while also architecting and coding the applications from scratch and managing offshore teams of mobile developers. I was also hired into several agencies to contribute extra engineering capacity and train their teams to use new technologies, coding best-practices and delivery workflows. Even after my contracts had ended, I remained in touch with several clients, hearing much positive feedback about the residual effects of our engagement.'
       },
@@ -259,17 +237,9 @@ const database = {
         position: 'Director, Product Engineering',
         company: 'Ultrastar / LiveNation',
         location: 'NYC / Brooklyn',
-        achievements: [
-          'Reduced agency and contractor costs by 70% by singlehandedly taking ownership of entire codebase. ',
-          'Reduced delivery time by 50% by normalizing development and deployment processes.',
-          'Directly affected new client acquisition by prototyping new products and features.',
-          'Directed design and development teams in delivery of client work.',
-          'Accelerated the hiring process 4x by creating a questionnaire and battery of tests and for technical screenings and interviews.',
-          'Achieved higher operational excellence by assisting client managers in setting expectations and providing teams a normalized framework within which to operate.',
-          'Increased employee happiness by organizing weekly team-building events.'
-        ],
+        achievements: [],
         details:
-          'After undergrad, I began work as webmaster at a startup founded by David Bowie. Part ISP, part subscription-fanclub/advance-ticketing platform. Early on, I was called upon to interact directly with fans as well as artists/clients. Clients included David himself, The Rolling Stones, The Who, Madonna, Mariah Carey, The Police, AC/DC and many others. My solid handling of those responsibilities allowed me to rapidly evolve into more of a player/coach as the team grew to 5+ designers and developers. I was responsible for ensuring our team delivered all client work as well as prototyping and pitching new features to prospective clients. Out of necessity, I invented my own processes, workflows and libraries to organize work, set expectations with client managers, and provide engineers a high level of reusability and extensibility between projects. I also organized and executed exclusive members-only experiences and live webcasts from venues.'
+          'After undergrad, I began work as webmaster at a startup founded by David Bowie. Part ISP, part subscription-fanclub/advance-ticketing platform. Early on, I was called upon to interact directly with fans as well as artists/clients. Clients included David himself, The Rolling Stones, The Who, Madonna, Mariah Carey, The Police, AC/DC and many others. My adept handling of those responsibilities allowed me to rapidly evolve into more of a player/coach as the team grew to 5+ designers and developers. I was responsible for ensuring our team delivered all client work as well as prototyping and pitching new features to prospective clients. Out of necessity, I invented my own processes, workflows and libraries to organize work for the company, set expectations with client managers, and provide engineers a high level of reusability and extensibility across projects. I also organized and executed exclusive members-only experiences, live chats and webcasts from venues.'
       }
     ],
     volunteerExperience: [
@@ -279,7 +249,7 @@ const database = {
         position: 'Auction Committee Chair',
         company: 'River Valley Waldorf School',
         details:
-          'Organized, planned and executed the annual auction fundraiser, which is also the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations. Produced a digital playbook documenting the process for future committees; a first in the history of the school.'
+          'Organized, planned and executed the Auction Gala, the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations raising approximately $40K. Produced a digital playbook documenting the process for future committees; a first in the history of the school.'
       },
       {
         id: 2,
@@ -294,10 +264,10 @@ const database = {
       {
         id: 1,
         year: '1996 - 2000',
-        graduation: 'BA, Advertising/Communications',
+        graduation: 'BA, Advertising / Communications',
         university: 'Penn State University',
         achievements: [
-          "3.8 GPA, Dean's list 6 of 8 semesters",
+          "3.8 GPA, Dean's List",
           'Peer Mentor',
           'Work/study as Webmaster for College of Communications'
         ],

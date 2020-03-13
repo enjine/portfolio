@@ -44,7 +44,7 @@ const Portfolio = props => {
           </a>
         </h5>
       )}
-      {subtitle ? <h6>{subtitle}</h6> : null}
+      {subtitle ? <h6 dangerouslySetInnerHTML={{ __html: subtitle }} /> : null}
       {!largeImageUrl ? null : (
         <FsLightbox toggler={toggler} sources={largeImageUrl} />
       )}

@@ -18,7 +18,7 @@
   transition: $transition;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: auto;
@@ -44,6 +44,12 @@
     height: $input-button-height - 5;
     line-height: $input-button-height - 5;
   }
+
+  @media #{$layout-mobile-xs} {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 }
 
 .mi-readmore {
@@ -52,7 +58,7 @@
   transition: $transition;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: auto;

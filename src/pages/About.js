@@ -5,10 +5,11 @@ import Layout from '../components/Layout'
 import Service from '../components/Service'
 import TrackVisibility from 'react-on-screen'
 import Progress from '../components/Progress'
+import ButtonLink from '../components/ButtonLink'
 
 const About = () => {
   const [skills, setSkills] = useState([])
-  const [totalYearsExperience, setTotalYearsExperience] = useState([])
+  const [totalYearsExperience, setTotalYearsExperience] = useState(0)
   const [toggler, setToggler] = useState(false)
   const [information, setInformation] = useState('')
   const [services, setServices] = useState([])
@@ -72,13 +73,14 @@ const About = () => {
                   )}
                 </ul>
                 <p>
-                  I am intensely focussed on delivering an exceptional customer
-                  experience and producing high-quality products.
+                  I am intensely focused on producing high-quality products that
+                  deliver an exceptional customer experience.
                 </p>
-                <p>I bring people together and practice empathy.</p>
+                <p>I bring people together, and practice empathy.</p>
                 <p>
                   I lead technical teams toward well-architected solutions that
-                  work within the timeline.
+                  work within the timeline and adapt well to changes along the
+                  way.
                 </p>
                 <p>
                   I listen well, communicate clearly, and am excellent at
@@ -93,14 +95,9 @@ const About = () => {
                   do the same.
                 </p>
 
-                <a
-                  href={information.cvfile}
-                  className="mi-button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Download CV
-                </a>
+                <ButtonLink url={information.cvfile} target="_blank">
+                  Download Resumè
+                </ButtonLink>
               </div>
             </div>
           </div>

@@ -4,13 +4,18 @@ import Sectiontitle from '../components/Sectiontitle'
 import Smalltitle from '../components/Smalltitle'
 import Layout from '../components/Layout'
 import Resume from '../components/Resume'
+import ButtonLink from '../components/ButtonLink'
 
 const Resumes = () => {
   const [workingExperience, setWorkingExperience] = useState([])
   const [educationExperience, setEducationExperience] = useState([])
   const [volunteerExperience, setVolunteerExperience] = useState([])
+  const [information, setInformation] = useState('')
 
   useEffect(() => {
+    axios.get('/api/information').then(response => {
+      setInformation(response.data)
+    })
     axios.get('/api/experience').then(response => {
       setWorkingExperience(response.data.workingExperience)
       setEducationExperience(response.data.educationExperience)
@@ -43,6 +48,14 @@ const Resumes = () => {
               <Resume key={educatonExp.id} resumeData={educatonExp} />
             ))}
           </div>
+          <div className="mt-30"></div>
+          <ButtonLink
+            url={information.cvfile}
+            target="_blank"
+            className="float-right"
+          >
+            Download Resumè
+          </ButtonLink>
         </div>
       </div>
     </Layout>
