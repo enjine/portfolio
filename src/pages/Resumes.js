@@ -49,13 +49,15 @@ const Resumes = () => {
             ))}
           </div>
           <div className="mt-30"></div>
-          <ButtonLink
-            url={information.cvfile}
-            target="_blank"
-            className="float-right"
-          >
-            Download Resumè
-          </ButtonLink>
+          <div className="mi-resume-wrapper">
+            <ButtonLink
+              url={information.cvfile}
+              target="_blank"
+              className="float-right"
+            >
+              Download Resumè
+            </ButtonLink>
+          </div>
         </div>
       </div>
     </Layout>

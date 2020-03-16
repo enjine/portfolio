@@ -5,7 +5,7 @@ const database = {
     firstName: 'Alessandro',
     lastName: 'Di Candia',
     aboutContent:
-      'Customer-centric Technology Leader. Expertise in leading distributed teams, front-end engineering, software quality, and CI/CD. Growth mindset for startups, product development, and innovation.',
+      'Customer-centric technology leader catalyzing growth in organizations and individuals. Expert leader of both remote and distributed teams.',
     age: 42,
     phone: '',
     nationality: '',
@@ -56,7 +56,7 @@ const database = {
       title: 'Event Driven Design',
       icon: 'bolt-alt',
       details:
-        "In my experience building UI's and complex systems, event-driven design has proven to be a very effective, semantic way to loosely-couple components. I have extensive experience using Flux, Event Sourcing, and CQRS patterns to construct complex UI applications and distributed systems."
+        "In my experience building UI's and complex systems, event-driven design has proven to be a very effective, semantic way to loosely-couple components. I have extensive experience using Flux, Event Sourcing, and CQRS patterns to construct complex applications and distributed systems."
     },
     {
       title: 'Responsive Web Applications',
@@ -118,15 +118,35 @@ const database = {
   ],
   skills: [
     {
-      title: 'Technology Leadership',
-      years: 15
-    },
-    {
       title: 'Executive Leadership',
       years: 3
     },
     {
-      title: 'Team Culture',
+      title: 'Strategic & Operational Leadership',
+      years: 10
+    },
+    {
+      title: 'Technology Leadership',
+      years: 15
+    },
+    {
+      title: 'People Management',
+      years: 5
+    },
+    {
+      title: 'Talent Acquisition & Development',
+      years: 7
+    },
+    {
+      title: 'Cross-Functional Communications',
+      years: 20
+    },
+    {
+      title: 'Business Analysis',
+      years: 15
+    },
+    {
+      title: 'Team Culture & Goal Setting',
       years: 18
     },
     {
@@ -134,28 +154,12 @@ const database = {
       years: 10
     },
     {
-      title: 'Technical Product Ownership',
+      title: 'Solution Design & Technical Ownership',
       years: 20
     },
     {
-      title: 'UI / Frontend Engineering',
+      title: 'UI / Front-end Engineering',
       years: 10
-    },
-    {
-      title: 'People Management',
-      years: 5
-    },
-    {
-      title: 'Talent Acquisition',
-      years: 7
-    },
-    {
-      title: 'Business Analysis',
-      years: 15
-    },
-    {
-      title: 'Cross-Functional Communications',
-      years: 20
     }
   ],
   portfolios: [
