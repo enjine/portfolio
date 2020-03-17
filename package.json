@@ -18,7 +18,7 @@
     "react-on-screen": "^2.1.1",
     "react-particles-js": "^2.7.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^3.4.0",
     "shave": "^2.5.6"
   },
   "scripts": {

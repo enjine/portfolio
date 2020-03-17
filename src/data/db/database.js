@@ -182,7 +182,7 @@ const database = {
       id: 2,
       title: 'tv.verizon.com',
       subtitle:
-        'Multi-tenant TV Everywhere product enabling cable subscribers to watch TV and movies on any device from anywhere.',
+        'Multi-tenant TV Everywhere product enabling cable subscribers to watch live TV, movies, and OTT content on any device from anywhere.',
       imageUrl: '/images/portfolio-image-2.png',
       largeImageUrl: ['/images/portfolio-image-2-lg.png'],
       url: 'https://tv.verizon.com'
