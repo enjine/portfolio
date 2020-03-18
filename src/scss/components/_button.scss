@@ -2,6 +2,24 @@
  * Button
  */
 
+.text-link {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  font-family: $ff-body;
+  color: $color-body;
+  font-weight: 600;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
 .mi-button {
   position: relative;
   padding: 0 30px;

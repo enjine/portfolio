@@ -1,16 +1,21 @@
 import Mock from '../mock'
 
+const encodedEmail = 'nyrk@rawvar.arg'
+const linkedInUrl = 'https://www.linkedin.com/in/adicandia/'
+
 const database = {
   information: {
     firstName: 'Alessandro',
     lastName: 'Di Candia',
     aboutContent:
-      'Customer-centric technology leader catalyzing growth in organizations and individuals. Expert leader of both remote and distributed teams.',
+      'Customer-centric technology leader catalyzing growth in organizations and individuals. Experienced manager of remote and distributed teams.',
     age: 42,
     phone: '',
     nationality: '',
     language: '',
-    email: 'alex@enjine.net',
+    email: encodedEmail,
+    calendar:
+      'https://calendly.com/dicandia?background_color=000000&text_color=FFFFFF&primary_color=efad39',
     address: 'Ferndale, PA 18921',
     freelanceStatus: 'Available',
     socialLinks: {
@@ -30,80 +35,93 @@ const database = {
   services: [
     {
       title: 'Team Culture',
+      type: 'executive',
       icon: 'grow',
       details:
         'Hiring, motivating, and retaining distributed engineering teams is one of my strengths. Every team needs to cultivate its own identity; I provide a healthy space for it to grow. I build strong, accountable, unified teams founded on trust and empathy.'
     },
     {
       title: 'User Experience',
+      type: 'product',
       icon: 'users',
       details:
         'Users and customers are first-class citizens in the technology ecosystem. Human or machine, they are on the receiving end of everything our teams do. I respect their position tremendously, and it is a significant factor for me when making business or technology decisions.'
     },
     {
       title: 'Domain Language',
+      type: 'technical',
       icon: 'write',
       details:
         'To collaboratively solve problems and create effective solutions, teams must share an understanding of both the problem and the solution. I have successfully introduced Domain-Driven Design (DDD) as one way to avoid many of the struggles that befall cross-functional teams when defining technical requirements and acceptance criteria.'
     },
     {
       title: 'Platform Architecture',
+      type: 'technical',
       icon: 'cloudnetwork',
       details:
         '20 years of experience designing scalable distributed systems for growth. Whether acting as VP, Manager, Tech Lead, or Individual Contributor, my approach is the same; gain a deep understanding of the problem space and strive for simple solutions.'
     },
     {
       title: 'Event Driven Design',
+      type: 'technical',
       icon: 'bolt-alt',
       details:
         "In my experience building UI's and complex systems, event-driven design has proven to be a very effective, semantic way to loosely-couple components. I have extensive experience using Flux, Event Sourcing, and CQRS patterns to construct complex applications and distributed systems."
     },
     {
+      title: 'INFOSEC',
+      type: 'technical',
+      icon: 'shield',
+      details:
+        'Modern systems require modern security practices. I understand what is required to keep networks secure, applications free from vulnerabilities, data protected at rest, over the wire, and even when shared with trusted 3rd parties.'
+    },
+    {
+      title: 'Regulatory Compliance',
+      type: 'technical',
+      icon: 'stamp',
+      details:
+        'First-hand experience working directly with Legal and Compliance teams in the FinTech space to understand and implement the mandated requirements for both customer- and system-facing interactions.'
+    },
+    {
       title: 'Responsive Web Applications',
+      type: 'technical',
       icon: 'laptop-phone',
       details:
         'The web is a multi-device experience. I deeply understand this medium and how to make those transitions seamless.'
     },
     {
       title: 'Java/JVM',
+      type: 'technical',
       icon: 'java',
       details:
         'Experience with compiled languages on the JVM including Java, Scala, and Kotlin with Maven and Gradle as build tools.'
     },
     {
       title: 'JavaScript',
+      type: 'technical',
       icon: 'code',
       details:
         'Specialization in creating responsive web applications that are highly performant. Deep understanding of both server- and client-side environments. Experience creating and publishing private NPM packages.'
     },
     {
       title: 'HTML5/CSS3',
+      type: 'technical',
       icon: 'brick',
       details: "Mastery of the browser's building blocks."
     },
     {
       title: 'Docker/Kubernetes',
+      type: 'technical',
       icon: 'ship',
       details:
         'Experience working with large clusters of containerized microservices using managed Kubernetes (EKS) on AWS.'
     },
     {
       title: 'CI/CD',
+      type: 'technical',
       icon: 'rocket',
       details:
         'Delivery becomes a competitive advantage when your teams can ship high-quality work quickly. I understand what is needed to assemble a pipeline that builds, tests, and deploys projects into a cluster, but also fails-fast if quality standards are not met.'
-    },
-    {
-      title: 'Regulatory Compliance',
-      icon: 'stamp',
-      details:
-        'First-hand experience working directly with Legal and Compliance teams in the FinTech space to understand and implement the mandated requirements for both customer- and system-facing interactions.'
-    },
-    {
-      title: 'INFOSEC',
-      icon: 'shield',
-      details:
-        'Modern systems require modern security practices. I understand what is required to keep, networks secure, applications free from vulnerabilities, data protected at rest, over the wire, and even when shared with trusted 3rd parties.'
     }
   ],
   reviews: [
@@ -291,8 +309,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['', ''],
-    emailAddress: ['', ''],
+    phoneNumbers: [],
+    emailAddress: [encodedEmail],
+    linkedIn: linkedInUrl,
     address: ''
   }
 }

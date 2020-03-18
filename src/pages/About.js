@@ -3,13 +3,10 @@ import axios from 'axios'
 import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
 import Service from '../components/Service'
-import TrackVisibility from 'react-on-screen'
-import Progress from '../components/Progress'
 import ButtonLink from '../components/ButtonLink'
+import SafeMailToLink from '../components/SafeMailToLink'
 
 const About = () => {
-  const [skills, setSkills] = useState([])
-  const [totalYearsExperience, setTotalYearsExperience] = useState(0)
   const [toggler, setToggler] = useState(false)
   const [information, setInformation] = useState('')
   const [services, setServices] = useState([])
@@ -19,12 +16,6 @@ const About = () => {
   }
 
   useEffect(() => {
-    axios.get('/api/skills').then(response => {
-      setSkills(response.data)
-    })
-    axios.get('/api/experience').then(response => {
-      setTotalYearsExperience(response.data.totalYears)
-    })
     axios.get('/api/information').then(response => {
       setInformation(response.data)
     })
@@ -43,7 +34,7 @@ const About = () => {
               <div className="mi-about-image">
                 <img
                   src={information.aboutImage}
-                  alt="cover letter"
+                  alt="&copy; 2016 Luke Hughes (used with permission)"
                   onClick={() => handleToggler(!toggler)}
                 />
               </div>
@@ -63,7 +54,8 @@ const About = () => {
                   )}
                   {!information.email ? null : (
                     <li>
-                      <b>Email</b> {information.email}
+                      <b>Email</b>{' '}
+                      <SafeMailToLink>{information.email}</SafeMailToLink>
                     </li>
                   )}
                   {!information.address ? null : (
@@ -95,8 +87,19 @@ const About = () => {
                   do the same.
                 </p>
 
-                <ButtonLink url={information.cvfile} target="_blank">
+                <ButtonLink
+                  className="mr-3"
+                  url={information.cvfile}
+                  target="_blank"
+                >
                   Download Resumè
+                </ButtonLink>
+                <ButtonLink
+                  className="mt-n2"
+                  url={information.calendar}
+                  target="_blank"
+                >
+                  Calendar
                 </ButtonLink>
               </div>
             </div>
@@ -115,30 +118,6 @@ const About = () => {
                 >
                   <Service content={service} />
                 </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="mi-skills-area mi-section mi-padding-bottom">
-        <div className="container">
-          <Sectiontitle title="Core Competencies" />
-          <div className="mi-skills">
-            <div className="row mt-30-reverse">
-              {skills.map(skill => (
-                <TrackVisibility
-                  once
-                  className="col-lg-6 mt-30"
-                  key={skill.title}
-                >
-                  <Progress
-                    title={skill.title}
-                    percentage={
-                      skill.value || (skill.years / totalYearsExperience) * 100
-                    }
-                    years={skill.years}
-                  />
-                </TrackVisibility>
               ))}
             </div>
           </div>

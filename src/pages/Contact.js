@@ -3,10 +3,12 @@ import axios from 'axios'
 import * as Icon from 'react-feather'
 import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
+import SafeMailToLink from '../components/SafeMailToLink'
 
 const Contact = () => {
   const [phoneNumbers, setPhoneNumbers] = useState([])
   const [emailAddress, setEmailAddress] = useState([])
+  const [linkedInUrl, setLinkedInUrl] = useState([])
   const [address, setAddress] = useState([])
   const [formdata, setFormdata] = useState({
     name: '',
@@ -33,7 +35,7 @@ const Contact = () => {
       setMessage('Message is required')
     } else {
       setError(false)
-      setMessage('Your message has been sent!!!')
+      setMessage('Your message has been sent.')
     }
   }
   const handleChange = event => {
@@ -42,9 +44,18 @@ const Contact = () => {
       [event.currentTarget.name]: event.currentTarget.value
     })
   }
-  const numberFormatter = number => {
-    const phnNumber = number
-    return phnNumber
+
+  // https://learnersbucket.com/examples/javascript/how-to-format-phone-number-in-javascript/
+  const formatPhone = str => {
+    let cleaned = ('' + str).replace(/\D/g, '')
+    let match = cleaned.match(/^(1|)?(\d{3})(\d{3})(\d{4})$/)
+
+    if (match) {
+      let intlCode = match[1] ? '+1 ' : ''
+      return [intlCode, '(', match[2], ') ', match[3], '-', match[4]].join('')
+    }
+
+    return ''
   }
 
   const handleAlerts = () => {
@@ -61,6 +72,7 @@ const Contact = () => {
     axios.get('/api/contactinfo').then(response => {
       setPhoneNumbers(response.data.phoneNumbers)
       setEmailAddress(response.data.emailAddress)
+      setLinkedInUrl(response.data.linkedIn)
       setAddress(response.data.address)
     })
   }, [])
@@ -69,11 +81,11 @@ const Contact = () => {
     <Layout>
       <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Contact Me" />
+          <Sectiontitle title="Get In Touch" />
           <div className="row">
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
-                <h4>Get In Touch</h4>
+                <h4>Send me a message</h4>
                 <form
                   action="#"
                   className="mi-form mi-contact-form"
@@ -137,7 +149,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-6">
               <div className="mi-contact-info">
-                {!phoneNumbers ? null : (
+                {!phoneNumbers || phoneNumbers.length < 1 ? null : (
                   <div className="mi-contact-infoblock">
                     <span className="mi-contact-infoblock-icon">
                       <Icon.Phone />
@@ -146,8 +158,8 @@ const Contact = () => {
                       <h6>Phone</h6>
                       {phoneNumbers.map(phoneNumber => (
                         <p key={phoneNumber}>
-                          <a href={numberFormatter(phoneNumber)}>
-                            {phoneNumber}
+                          <a href={`tel:${formatPhone(phoneNumber)}`}>
+                            {formatPhone(phoneNumber)}
                           </a>
                         </p>
                       ))}
@@ -163,13 +175,32 @@ const Contact = () => {
                       <h6>Email</h6>
                       {emailAddress.map(email => (
                         <p key={email}>
-                          <a href={`mailto:${email}`}>{email}</a>
+                          <SafeMailToLink>{email}</SafeMailToLink>
                         </p>
                       ))}
                     </div>
                   </div>
                 )}
-                {!phoneNumbers ? null : (
+                {!linkedInUrl ? null : (
+                  <div className="mi-contact-infoblock">
+                    <span className="mi-contact-infoblock-icon">
+                      <Icon.Linkedin />
+                    </span>
+                    <div className="mi-contact-infoblock-content">
+                      <h6>LinkedIn</h6>
+                      <p key={linkedInUrl}>
+                        <a
+                          href={linkedInUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {linkedInUrl}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                )}
+                {!address ? null : (
                   <div className="mi-contact-infoblock">
                     <span className="mi-contact-infoblock-icon">
                       <Icon.MapPin />

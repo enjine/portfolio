@@ -74,6 +74,17 @@ const Socialicons = props => {
           </a>
         </li>
       )}
+      {!socialLinks.angellist ? null : (
+        <li>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href={socialLinks.angellist}
+          >
+            <LineIcon name="angellist" />
+          </a>
+        </li>
+      )}
       {!socialLinks.dribbble ? null : (
         <li>
           <a

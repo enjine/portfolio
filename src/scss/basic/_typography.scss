@@ -159,7 +159,16 @@ h6 {
 }
 
 a {
-  &:hover,
+  color: $color-theme;
+  transition: $transition;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:hover {
+    color: lighten($color-theme, 20%);
+    text-decoration: none;
+    outline: none;
+  }
   &:focus,
   &:active {
     text-decoration: none;
