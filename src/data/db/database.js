@@ -58,7 +58,7 @@ const database = {
     {
       title: 'Platform Architecture',
       type: 'technical',
-      icon: 'cloudnetwork',
+      icon: 'cloud-network',
       details:
         '20 years of experience designing scalable distributed systems for growth. Whether acting as VP, Manager, Tech Lead, or Individual Contributor, my approach is the same; gain a deep understanding of the problem space and strive for simple solutions.'
     },
@@ -107,7 +107,7 @@ const database = {
     {
       title: 'HTML5/CSS3',
       type: 'technical',
-      icon: 'brick',
+      icon: 'bricks',
       details: "Mastery of the browser's building blocks."
     },
     {
