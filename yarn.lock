@@ -9029,10 +9029,9 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
 
-react-lineicons@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-lineicons/-/react-lineicons-1.0.0.tgz#4f199af92aa0cc7676b46bad343a585dce92efdc"
-  integrity sha512-OPnf/nojH51JlemS8AXNMd8hRwiWBIWSPA28ORUcGtY8tRiUrKDM+Szi26Sq5AhG5xxrB0xrzfS9wJddWYu58g==
+react-lineicons@enjine/react-lineicons#master:
+  version "2.1.0"
+  resolved "https://codeload.github.com/enjine/react-lineicons/tar.gz/fd10df48af68043b9e1c21f98b03327f539832c3"
   dependencies:
     prop-types "^15.7.2"
 

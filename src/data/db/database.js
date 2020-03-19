@@ -19,11 +19,12 @@ const database = {
     address: 'Ferndale, PA 18921',
     freelanceStatus: 'Available',
     socialLinks: {
+      angellist: 'https://angel.co/adicandia',
       facebook: '',
       twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: 'https://www.linkedin.com/in/adicandia/',
+      linkedin: 'https://www.linkedin.com/in/adicandia',
       dribbble: '',
       github: 'https://github.com/enjine'
     },
