@@ -86,16 +86,24 @@ const About = () => {
                   I strive for growth and empower those with whom I interact to
                   do the same.
                 </p>
-
+              </div>
+              <div className="mt-2 text-center">
                 <ButtonLink
-                  className="mr-3"
+                  className="mr-2"
                   url={information.cvfile}
                   target="_blank"
                 >
-                  Download Resumè
+                  Resumè
                 </ButtonLink>
                 <ButtonLink
-                  className="mt-n2"
+                  className="mr-2 mt-n2"
+                  url={information.techSheet}
+                  target="_blank"
+                >
+                  Tech Sheet
+                </ButtonLink>
+                <ButtonLink
+                  className=""
                   url={information.calendar}
                   target="_blank"
                 >

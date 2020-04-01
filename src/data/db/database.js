@@ -31,7 +31,8 @@ const database = {
     brandImage: '/images/brand-image.png',
     aboutImage: '/images/comin-atcha.gif',
     aboutImageLg: '/images/about-image-lg.png',
-    cvfile: '/files/ADiCandia2020.pdf'
+    cvfile: '/files/ADiCandia2020.pdf',
+    techSheet: '/files/ADiCandia_Technical_Appendix.pdf'
   },
   services: [
     {
