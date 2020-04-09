@@ -18,7 +18,7 @@ const Portfolios = () => {
     <Layout>
       <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Featured Projects" />
+          <Sectiontitle title="Selected Projects" />
           <div className="row mt-30-reverse">
             {portfolios.map(portfolio => (
               <TrackVisibility
