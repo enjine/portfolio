@@ -220,6 +220,18 @@ const database = {
         '/images/portfolio-image-3c-lg.png'
       ],
       url: 'https://www.livenationentertainment.com/'
+    },
+    {
+      id: 4,
+      title: 'Livetapp',
+      subtitle:
+        'Livetapp is a fan engagement platform for live music offering deals and promotions in exchange for "checking-ing" as well as custom festival guides and artist and event suggestions. This project represents one of several startups I helped bring to market consulting as technical co-founder.',
+      imageUrl: '/images/portfolio-image-4.png',
+      largeImageUrl: [
+        '/images/portfolio-image-4-lg.png',
+        '/images/portfolio-image-4a-lg.png'
+      ],
+      url: 'http://www.livetapp.com/'
     }
   ],
   experience: {
