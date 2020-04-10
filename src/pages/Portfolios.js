@@ -9,8 +9,8 @@ const Portfolios = () => {
   const [portfolios, setPortfoios] = useState([])
 
   useEffect(() => {
-    axios.get('/api/portfolios').then(response => {
-      setPortfoios(response.data)
+    axios.get('/api/portfolios').then(({ data }) => {
+      setPortfoios(data)
     })
   })
 

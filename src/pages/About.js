@@ -16,11 +16,11 @@ const About = () => {
   }
 
   useEffect(() => {
-    axios.get('/api/information').then(response => {
-      setInformation(response.data)
+    axios.get('/api/information').then(({ data }) => {
+      setInformation(data)
     })
-    axios.get('/api/services').then(response => {
-      setServices(response.data)
+    axios.get('/api/services').then(({ data }) => {
+      setServices(data)
     })
   }, [])
 

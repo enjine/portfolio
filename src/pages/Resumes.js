@@ -13,14 +13,20 @@ const Resumes = () => {
   const [information, setInformation] = useState('')
 
   useEffect(() => {
-    axios.get('/api/information').then(response => {
-      setInformation(response.data)
+    axios.get('/api/information').then(({ data }) => {
+      setInformation(data)
     })
-    axios.get('/api/experience').then(response => {
-      setWorkingExperience(response.data.workingExperience)
-      setEducationExperience(response.data.educationExperience)
-      setVolunteerExperience(response.data.volunteerExperience)
-    })
+    axios
+      .get('/api/experience')
+      .then(
+        ({
+          data: { workingExperience, educationExperience, volunteerExperience }
+        }) => {
+          setWorkingExperience(workingExperience)
+          setEducationExperience(educationExperience)
+          setVolunteerExperience(volunteerExperience)
+        }
+      )
   }, [])
 
   return (
