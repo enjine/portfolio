@@ -225,7 +225,7 @@ const database = {
       id: 4,
       title: 'Livetapp',
       subtitle:
-        'Livetapp is a fan engagement platform for live music offering deals and promotions in exchange for "checking-ing" as well as custom festival guides and artist and event suggestions. This project represents one of several startups I helped bring to market consulting as technical co-founder.',
+        'Livetapp is a fan engagement platform for live music offering deals and promotions in exchange for "checking-in" as well as custom festival guides and artist and event suggestions. This project represents one of several startups I helped bring to market consulting as technical co-founder.',
       imageUrl: '/images/portfolio-image-4.png',
       largeImageUrl: [
         '/images/portfolio-image-4-lg.png',
