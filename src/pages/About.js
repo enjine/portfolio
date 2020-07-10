@@ -68,7 +68,10 @@ const About = () => {
                   I am intensely focused on producing high-quality products that
                   deliver an exceptional customer experience.
                 </p>
-                <p>I bring people together, and practice empathy.</p>
+                <p>
+                  I bring people together, embracing diversity, and practicing
+                  empathy.
+                </p>
                 <p>
                   I lead technical teams toward well-architected solutions that
                   work within the timeline and adapt well to changes along the
