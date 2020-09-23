@@ -281,6 +281,14 @@ const database = {
     volunteerExperience: [
       {
         id: 1,
+        year: '2020 - Present',
+        position: 'Board Member',
+        company: 'River Valley Waldorf School',
+        details:
+          'Member of the Board of Trustees responsible for guidance and governance of a faculty-centric school committed to modern Waldorf pedagogy.'
+      },
+      {
+        id: 2,
         year: '2019 - 2020',
         position: 'Auction Committee Chair',
         company: 'River Valley Waldorf School',
@@ -288,7 +296,7 @@ const database = {
           'Organized, planned and executed the Auction Gala, the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations raising approximately $40K. Produced a digital playbook documenting the process for future committees; a first in the history of the school.'
       },
       {
-        id: 2,
+        id: 3,
         year: '2015 - 2018',
         position: 'IT Committee Chair',
         company: 'River Valley Waldorf School',
