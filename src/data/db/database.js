@@ -8,15 +8,15 @@ const database = {
     firstName: 'Alessandro',
     lastName: 'Di Candia',
     aboutContent:
-      'Customer-centric technology leader catalyzing growth in organizations and individuals. Experienced manager of remote and distributed teams.',
-    age: 42,
+      'Customer-centric technology leader catalyzing growth in organizations and individuals. Experienced manager of remote and distributed teams. Hands-on solutions architect.',
+    age: 44,
     phone: '',
     nationality: '',
     language: '',
     email: encodedEmail,
     calendar:
       'https://calendly.com/dicandia?background_color=000000&text_color=FFFFFF&primary_color=efad39',
-    address: 'Ferndale, PA 18921',
+    address: 'Erwinna, PA 18920',
     freelanceStatus: 'Available',
     socialLinks: {
       angellist: 'https://angel.co/adicandia',
@@ -31,7 +31,7 @@ const database = {
     brandImage: '/images/brand-image.png',
     aboutImage: '/images/comin-atcha.gif',
     aboutImageLg: '/images/about-image-lg.png',
-    cvfile: '/files/ADiCandia2020.pdf',
+    cvfile: '/files/ADiCandia_Director_Eng_2023.pdf',
     techSheet: '/files/ADiCandia_Technical_Appendix.pdf'
   },
   services: [
@@ -71,6 +71,13 @@ const database = {
         "In my experience building UI's and complex systems, event-driven design has proven to be a very effective, semantic way to loosely-couple components. I have extensive experience using Flux, Event Sourcing, and CQRS patterns to construct complex applications and distributed systems."
     },
     {
+      title: 'Enterprise Data Modeling',
+      type: 'technical',
+      icon: 'database',
+      details:
+        "Models are how humans understand the world around them. For a business' technology to flourish its data must be well modeled and carry ubiquitous meaning for all who interact with it. It also must be flexible enough to meet the changing needs of a growing business."
+    },
+    {
       title: 'INFOSEC',
       type: 'technical',
       icon: 'shield',
@@ -103,7 +110,7 @@ const database = {
       type: 'technical',
       icon: 'code',
       details:
-        'Specialization in creating responsive web applications that are highly performant. Deep understanding of both server- and client-side environments. Experience creating and publishing private NPM packages.'
+        'Specialization in creating web and native applications that are highly performant. Deep understanding of both server- and client-side environments. Experience creating and publishing private NPM packages.'
     },
     {
       title: 'HTML5/CSS3',
@@ -185,6 +192,15 @@ const database = {
   portfolios: [
     {
       id: 1,
+      title: 'gopuff.com',
+      subtitle:
+        'Vertically integrated e-commerce platform. The place for Grocery, Alcohol, Home, and more for 18-35 year olds.',
+      imageUrl: undefined,
+      largeImageUrl: undefined,
+      url: 'https://gopuff.com'
+    },
+    {
+      id: 1,
       title: 'gainbridge.life',
       subtitle:
         'Fully digital retail annuity e-commerce platform. Purchase fixed annuities direct from the issuer, without an agent, on any device.',
@@ -237,6 +253,16 @@ const database = {
   experience: {
     totalYears: 20,
     workingExperience: [
+      {
+        id: 1,
+        year: 'Sept 2020 - Present',
+        position: 'Principal Engineer',
+        company: 'Gopuff',
+        location: 'Remote',
+        achievements: [],
+        details:
+          'Joined as the first Principal Engineer on the 80 person engineering team during a period of intense hyper-growth and helped scale it to nearly 300 in under 1 year. Successfully launched the company’s MVP AdTech platform that delivered $21MM in revenue in less than 12 months. Thought leader in the areas of eventing, domain driven design, enterprise data architecture, and privacy. Team lead, mentor, and expert facilitator of business / tech alignment.'
+      },
       {
         id: 1,
         year: 'Aug 2017 - Jan 2020',
