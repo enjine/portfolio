@@ -31,7 +31,7 @@ const database = {
     brandImage: '/images/brand-image.png',
     aboutImage: '/images/comin-atcha.gif',
     aboutImageLg: '/images/about-image-lg.png',
-    cvfile: '/files/ADiCandia_Director_Eng_2023.pdf',
+    cvfile: '/files/ADiCandia_SrPrincipal_Eng_2023',
     techSheet: '/files/ADiCandia_Technical_Appendix.pdf'
   },
   services: [
@@ -261,7 +261,7 @@ const database = {
         location: 'Remote',
         achievements: [],
         details:
-          'Joined as the first Principal Engineer on the 80 person engineering team during a period of intense hyper-growth and helped scale it to nearly 300 in under 1 year. Successfully launched the company’s MVP AdTech platform that delivered $21MM in revenue in less than 12 months. Thought leader in the areas of eventing, domain driven design, enterprise data architecture, and privacy. Team lead, mentor, and expert facilitator of business / tech alignment.'
+          'Joined as the first Principal Engineer on the 80 person engineering team during a period of intense hyper-growth and helped scale it to nearly 300 in under 1 year. Successfully launched the company’s MVP AdTech platform that delivered $21MM in revenue in less than 12 months. Thought leader in the areas of eventing, domain driven design, enterprise data architecture, privacy and realtime architecture. Team lead, mentor, and expert facilitator of business + tech alignment.'
       },
       {
         id: 1,

@@ -63,13 +63,6 @@ const Resumes = () => {
             >
               Download Resumè
             </ButtonLink>
-            <ButtonLink
-              className="mr-2"
-              url={information.techSheet}
-              target="_blank"
-            >
-              Tech Sheet
-            </ButtonLink>
             <ButtonLink className="" url={information.calendar} target="_blank">
               Calendar
             </ButtonLink>

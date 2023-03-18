@@ -99,13 +99,6 @@ const About = () => {
                   Resumè
                 </ButtonLink>
                 <ButtonLink
-                  className="mr-2 mt-n2"
-                  url={information.techSheet}
-                  target="_blank"
-                >
-                  Tech Sheet
-                </ButtonLink>
-                <ButtonLink
                   className=""
                   url={information.calendar}
                   target="_blank"
