@@ -8,7 +8,7 @@ const database = {
     firstName: 'Alessandro',
     lastName: 'Di Candia',
     aboutContent:
-      'Customer-centric technology leader catalyzing growth in organizations and individuals. Experienced manager of remote and distributed teams. Hands-on solutions architect.',
+      'Customer-centric technology leader catalyzing growth in organizations and individuals. Experienced manager of remote and distributed teams. Hands-on software architect.',
     age: 44,
     phone: '',
     nationality: '',
@@ -31,7 +31,7 @@ const database = {
     brandImage: '/images/brand-image.png',
     aboutImage: '/images/comin-atcha.gif',
     aboutImageLg: '/images/about-image-lg.png',
-    cvfile: '/files/ADiCandia_SrPrincipal_Eng_2023',
+    cvfile: '/files/ADiCandia_SrPrincipal_Eng_2023.pdf',
     techSheet: '/files/ADiCandia_Technical_Appendix.pdf'
   },
   services: [
