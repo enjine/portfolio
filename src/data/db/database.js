@@ -47,7 +47,7 @@ const database = {
       type: 'product',
       icon: 'users',
       details:
-        'Users and customers are first-class citizens in the technology ecosystem. Human or machine, they are on the receiving end of everything our teams do. I respect their position tremendously, and it is a significant factor for me when making business or technology decisions.'
+        'Users are first-class citizens in the technology ecosystem. Human or machine, they are on the receiving end of everything our teams do. I respect their position tremendously, and it is a significant factor for me when making business or technology decisions.'
     },
     {
       title: 'Domain Language',
@@ -96,7 +96,7 @@ const database = {
       type: 'technical',
       icon: 'laptop-phone',
       details:
-        'The web is a multi-device experience. I deeply understand this medium and how to make those transitions seamless.'
+        'The web is a multi-device experience. I deeply understand this medium and how to make transitions across devices seamless.'
     },
     {
       title: 'Java/JVM',
@@ -254,64 +254,72 @@ const database = {
     totalYears: 20,
     workingExperience: [
       {
-        id: 1,
+        id: 5,
         year: 'Sept 2020 - Present',
         position: 'Principal Engineer',
         company: 'Gopuff',
         location: 'Remote',
         achievements: [],
         details:
-          'Joined as the first Principal Engineer on the 80 person engineering team during a period of intense hyper-growth and helped scale it to nearly 300 in under 1 year. Successfully launched the company’s MVP AdTech platform that delivered $21MM in revenue in less than 12 months. Thought leader in the areas of eventing, domain driven design, enterprise data architecture, privacy and realtime architecture. Team lead, mentor, and expert facilitator of business + tech alignment.'
+          "Joined as the first Principal Engineer on the 80 person engineering team during a period of intense hyper-growth and helped scale it to nearly 300 in under 1 year. Successfully launched the company's MVP AdTech platform that delivered $21MM in revenue in less than 12 months. Thought leader in the areas of eventing, domain driven design, enterprise data architecture, privacy and realtime architecture. Team lead, mentor, and expert facilitator of business + tech alignment."
       },
       {
-        id: 1,
+        id: 4,
         year: 'Aug 2017 - Jan 2020',
         position: 'VP Technology, Digital Platform',
         company: 'Group1001 / Gainbridge Life',
         location: 'Remote',
         achievements: [],
         details:
-          'As a member of the senior leadership team, my colleagues and I collaborated to set the cultural and strategic vision for our fintech company, Gainbridge. Together, our Group1001-funded startup launched a digital, direct-to-consumer annuity platform that grew from 5 to 20 team members in 2 years and $1MM+/week in sales in under 12 months. As is the case in many startups, I wore multiple hats: VP of Tech, Engineering Manager, and Technical Product Owner. This role leveraged every one of my talents and challenged me to grow outside my comfort zones to meet the demands of an aggressive fintech startup.'
+          'As a member of the senior leadership team, I set the cultural and strategic technical vision for our fintech company, Gainbridge. Our Group1001-funded startup launched a digital, direct-to-consumer annuity platform that grew from 5 to 20 team members in 2 years and $1MM+/week in sales in under 12 months. I wore multiple hats: VP of Tech, Engineering Manager, and Technical Product Owner. The most impactful work I did during this time was as a people leader. In a startup climate rife with uncertainty and complex challenges I was able to build a strong sense of belonging, make tough decisions, and chip in wherever I could to deliver results.'
       },
       {
-        id: 2,
+        id: 3,
         year: 'Mar 2014 - Aug 2017',
         position: 'Principal Engineer',
         company: 'Synacor',
         location: 'Remote',
         achievements: [],
         details:
-          'Looking to expand my experience into more corporate/enterprise environments, I took a contract with Synacor as a Frontend Engineer on a fully distributed team. My technical contributions were predominantly full-stack front-end on top of a SOA backend. We had a robust CI pipeline and a formal change management process for releases that I helped to coordinate across all engineering teams. Shortly before my contract expired, I was asked to join as an FTE and take on the responsibilities of Tech Lead. I agreed, and in time was asked to fulfill additional roles as needed. I consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed and acted as interim Engineering Manager in absence of the role being filled. During my time here I was able to continue my passion for frontend work and creating great user experiences, but I was also given the opportunity to exercise my leadership skills in a formal management role.'
+          'I joined Synacor on a contract as a Frontend Engineer on a fully distributed team. My technical contributions were full-stack front-end on top of a SOA backend. I quickly grew outside the team and helped to coordinate a move toward CI/CD across all engineering teams. I then joined as an FTE Tech Lead. In this role, I consulted across teams when technical expertise, rapid prototyping, or domain knowledge was needed and filled the role of Engineering Manager when the job called for it. The most impactful work I did here was on shared services and libraries that helped teams scale up rapidly with out losing confidence in the quality of their work.'
       },
       {
-        id: 3,
+        id: 2,
         year: 'Feb 2009 - Mar 2014',
         position: 'Owner',
         company: 'Bitwise',
         location: 'Remote',
         achievements: [],
         details:
-          'Having learned much of what it takes to be successful in professional services during my first 9 years of employment, I started my own consulting company where I succeeded (and failed) by my own accord – using each experience as an opportunity for growth. I performed CTO/Technical co-founder duties for several startups while also architecting and coding the applications from scratch and managing offshore teams of mobile developers. I was also hired into several agencies to contribute extra engineering capacity and train their teams to use new technologies, coding best-practices and delivery workflows. Even after my contracts had ended, I remained in touch with several clients, hearing much positive feedback about the residual effects of our engagement.'
+          "Bitwise is my consulting company. In growing this business, I succeeded (and failed) in many areas by my own accord - using each experience as an opportunity for growth. I performed CTO/Technical co-founder duties for several startups while also architecting and coding applications from scratch and managing offshore teams of developers. I was hired into several agencies to add extra engineering capacity and train their teams to use new technologies, coding best-practices and delivery workflows. After my contracts had ended the relationships I'd built lived on, often hearing about the residual effects of the engagements and the transformative contributions I'd made to their business."
       },
       {
-        id: 4,
+        id: 1,
         year: 'May 2000 - Feb 2009',
         position: 'Director, Product Engineering',
         company: 'Ultrastar / LiveNation',
         location: 'NYC / Brooklyn',
         achievements: [],
         details:
-          'After undergrad, I began work as webmaster at a startup founded by David Bowie. Part ISP, part subscription-fanclub/advance-ticketing platform. Early on, I was called upon to interact directly with fans as well as artists/clients. Clients included David himself, The Rolling Stones, The Who, Madonna, Mariah Carey, The Police, AC/DC and many others. My adept handling of those responsibilities allowed me to rapidly evolve into more of a player/coach as the team grew to 5+ designers and developers. I was responsible for ensuring our team delivered all client work as well as prototyping and pitching new features to prospective clients. Out of necessity, I invented my own processes, workflows and libraries to organize work for the company, set expectations with client managers, and provide engineers a high level of reusability and extensibility across projects. I also organized and executed exclusive members-only experiences, live chats and webcasts from venues.'
+          'Ultrastar was a tech startup founded by David Bowie which was an ISP, subscription fan club, and advance-ticketing platform. Early in my role here I was primarily launching and maintaining web properties, publishing content, and building new features and management tools. At times I was called upon to interact directly with fans as well as artists/clients. Clients included David himself, The Rolling Stones, The Who, Madonna, Mariah Carey, The Police, INXS, AC/DC and dozens of other Live Nation artists. My adept handling of those responsibilities allowed me to rapidly evolve into more of a player/coach as the team grew to 5+ designers and developers. I was responsible for ensuring our team delivered all client work as well as prototyping and pitching new features to prospective clients. Out of necessity, I invented our own internal processes, workflows and libraries to organize work for the company, set expectations with client managers, and provide engineers a high level of reusability and extensibility across projects. I also organized and executed exclusive members-only experiences, live chats and webcasts from venues. The most impactful work I did here was building the core platform and the data models that eventually allowed us to collapse our time to market from months to weeks (and sometimes days)'
       }
     ],
     volunteerExperience: [
       {
-        id: 1,
+        id: 4,
         year: '2020 - Present',
         position: 'Board Member',
         company: 'River Valley Waldorf School',
         details:
           'Member of the Board of Trustees responsible for guidance and governance of a faculty-centric school committed to modern Waldorf pedagogy.'
+      },
+      {
+        id: 3,
+        year: '2021 - Present',
+        position: 'Advancement Committee Chair',
+        company: 'River Valley Waldorf School',
+        details:
+          'Head of the Advancement Committee responsible for outreach, fundraising, and fostering the growth of the school. This committee is responsible for bringing in a large portion of the funds required to keep the school financially healthy, as well as fostering a sense of belonging among the community.'
       },
       {
         id: 2,
@@ -322,7 +330,7 @@ const database = {
           'Organized, planned and executed the Auction Gala, the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations raising approximately $40K. Produced a digital playbook documenting the process for future committees; a first in the history of the school.'
       },
       {
-        id: 3,
+        id: 1,
         year: '2015 - 2018',
         position: 'IT Committee Chair',
         company: 'River Valley Waldorf School',
@@ -337,7 +345,7 @@ const database = {
         graduation: 'BA, Advertising / Communications',
         university: 'Penn State University',
         achievements: [
-          "3.8 GPA, Dean's List",
+          'Cum Laude',
           'Peer Mentor',
           'Work/study as Webmaster for College of Communications'
         ],
