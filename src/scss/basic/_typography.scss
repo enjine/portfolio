@@ -186,17 +186,15 @@ button,
 select,
 textarea {
   @include placeholder-color($color-body);
-  & {
-    background: transparent;
-    border: 1px solid $color-border;
-    font-family: $ff-body;
-    color: $color-body;
+  background: transparent;
+  border: 1px solid $color-border;
+  font-family: $ff-body;
+  color: $color-body;
 
-    &:focus,
-    &:active {
-      outline: none;
-      border-color: $color-theme;
-    }
+  &:focus,
+  &:active {
+    outline: none;
+    border-color: $color-theme;
   }
 }
 
