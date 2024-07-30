@@ -54,19 +54,6 @@ const Resumes = () => {
               <Resume key={educatonExp.id} resumeData={educatonExp} />
             ))}
           </div>
-          <div className="mt-30"></div>
-          <div className="text-right">
-            <ButtonLink
-              url={information.cvfile}
-              target="_blank"
-              className="mr-2"
-            >
-              Download Resumè
-            </ButtonLink>
-            <ButtonLink className="" url={information.calendar} target="_blank">
-              Calendar
-            </ButtonLink>
-          </div>
         </div>
       </div>
     </Layout>

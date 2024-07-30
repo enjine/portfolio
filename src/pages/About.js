@@ -3,7 +3,6 @@ import axios from 'axios'
 import Sectiontitle from '../components/Sectiontitle'
 import Layout from '../components/Layout'
 import Service from '../components/Service'
-import ButtonLink from '../components/ButtonLink'
 import SafeMailToLink from '../components/SafeMailToLink'
 
 const About = () => {
@@ -89,22 +88,6 @@ const About = () => {
                   I strive for growth and empower those with whom I interact to
                   do the same.
                 </p>
-              </div>
-              <div className="mt-2 text-center">
-                <ButtonLink
-                  className="mr-2"
-                  url={information.cvfile}
-                  target="_blank"
-                >
-                  Resumè
-                </ButtonLink>
-                <ButtonLink
-                  className=""
-                  url={information.calendar}
-                  target="_blank"
-                >
-                  Calendar
-                </ButtonLink>
               </div>
             </div>
           </div>
