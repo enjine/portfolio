@@ -1,0 +1,274 @@
+{
+    "basics": {
+        "name": "Alessandro Di Candia",
+        "label": "Principal Engineer",
+        "image": "",
+        "email": "alex@enjine.net",
+        "phone": "",
+        "url": "https://www.linkedin.com/in/adicandia",
+        "summary": "Customer-centric technology leader catalyzing growth in organizations and individuals. Experienced manager of remote and distributed teams. Hands-on software architect.",
+        "location": {
+            "address": "Erwinna, PA 18920",
+            "postalCode": "",
+            "city": "Erwinna",
+            "countryCode": "US",
+            "region": "PA"
+        },
+        "profiles": [
+            {
+                "network": "AngelList",
+                "username": "adicandia",
+                "url": "https://angel.co/adicandia"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "adicandia",
+                "url": "https://www.linkedin.com/in/adicandia"
+            },
+            {
+                "network": "GitHub",
+                "username": "enjine",
+                "url": "https://github.com/enjine"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Atlas by Hunt Club",
+            "position": "Principal Engineer",
+            "location": "Remote",
+            "startDate": "2023-06",
+            "endDate": "2024-06",
+            "summary": "Designed and implemented batch and streaming pipelines using Python Beam, transitioning the MVP design to an event-driven model. Delivered customer-facing features in NextJs/GraphQL/Relay, enhancing the user experience.",
+            "highlights": []
+        },
+        {
+            "name": "Gopuff",
+            "position": "Principal Engineer",
+            "location": "Remote",
+            "startDate": "2020-09",
+            "endDate": "2023-06",
+            "summary": "Bar-raiser for interviews during a period of hyper-growth scaling the engineering team from 80 to 300. Successfully launched the MVP AdTech platform, generating $21MM in revenue in under 12 months. Pioneered eventing, domain-driven design, enterprise data architecture, privacy, and real-time architecture. Led, mentored, and aligned business and tech teams.",
+            "highlights": []
+        },
+        {
+            "name": "Group1001 / Gainbridge Life",
+            "position": "Head of Technology, Digital Platform",
+            "location": "Remote",
+            "startDate": "2017-08",
+            "endDate": "2020-01",
+            "summary": "Set the cultural and strategic technical vision for a fintech startup, launching a direct-to-consumer annuity platform. This initiative grew the team from 5 to 20 members and achieved $1MM+/week in sales within 12 months. Fostered a strong sense of belonging and delivered results in a startup environment while serving as VP of Tech, Engineering Manager, and Technical Product Owner.",
+            "highlights": []
+        },
+        {
+            "name": "Synacor",
+            "position": "Principal Engineer",
+            "location": "Remote",
+            "startDate": "2014-03",
+            "endDate": "2017-08",
+            "summary": "Served as a full-stack front-end engineer on a SOA backend and coordinated CI/CD adoption across engineering teams. Provided technical expertise, rapid prototyping, and domain knowledge as an FTE Tech Lead. Developed shared services and libraries, enabling teams to scale confidently with quality.",
+            "highlights": []
+        },
+        {
+            "name": "Bitwise",
+            "position": "Owner",
+            "location": "Remote",
+            "startDate": "2009-02",
+            "endDate": "2014-03",
+            "summary": "Founded and operated Bitwise, performing CTO/Technical co-founder duties for startups, architecting and coding applications, and managing offshore teams. Provided engineering capacity to agencies and delivered transformative contributions that fostered lasting client relationships.",
+            "highlights": []
+        },
+        {
+            "name": "Ultrastar / LiveNation",
+            "position": "Director, Product Engineering",
+            "location": "NYC / Brooklyn",
+            "startDate": "2000-05",
+            "endDate": "2009-02",
+            "summary": "Launched and maintained web properties for renowned artists such as David Bowie, The Rolling Stones, and Madonna. Grew the team to 5+ designers and developers, ensuring the delivery of client work and pitching new features. Developed internal processes, workflows, and libraries, reducing time to market from months to weeks. Executed exclusive members-only experiences, live chats, and webcasts.",
+            "highlights": []
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "River Valley Waldorf School",
+            "position": "Board Member",
+            "startDate": "2020",
+            "endDate": "2023",
+            "summary": "Member of the Board of Trustees responsible for guidance and governance of a faculty-centric school committed to modern Waldorf pedagogy.",
+            "highlights": []
+        },
+        {
+            "organization": "River Valley Waldorf School",
+            "position": "Advancement Committee Chair",
+            "startDate": "2021",
+            "endDate": "2024",
+            "summary": "Head of the Advancement Committee responsible for outreach, fundraising, and fostering the growth of the school. This committee is responsible for bringing in a large portion of the funds required to keep the school financially healthy, as well as fostering a sense of belonging among the community.",
+            "highlights": []
+        },
+        {
+            "organization": "River Valley Waldorf School",
+            "position": "Auction Committee Chair",
+            "startDate": "2019",
+            "endDate": "2024",
+            "summary": "Organized, planned and executed the Auction Gala, the largest annual fundraising project. Worked with the co-chair to recruit volunteers, procure items, sponsorships, and donations raising approximately $40K. Produced a digital playbook documenting the process for future committees; a first in the history of the school.",
+            "highlights": []
+        },
+        {
+            "organization": "River Valley Waldorf School",
+            "position": "IT Committee Chair",
+            "startDate": "2015",
+            "endDate": "2018",
+            "summary": "Revamped internal IT infrastructure including email, domain controller and website. Helped maintain smooth daily IT operations for faculty and staff.",
+            "highlights": []
+        }
+    ],
+    "education": [
+        {
+            "institution": "Penn State University",
+            "area": "Advertising / Communications",
+            "studyType": "BA",
+            "startDate": "1996",
+            "endDate": "2000",
+            "score": "",
+            "courses": [
+                "Cum Laude",
+                "Peer Mentor",
+                "Work/study as Webmaster for College of Communications"
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Executive Leadership",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "Strategic & Operational Leadership",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "Technology Leadership",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "People Management",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "Talent Acquisition & Development",
+            "level": "Expert",
+            "keywords": []
+        },
+        {
+            "name": "Cross-Functional Communications",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "Business Analysis",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "Team Culture & Goal Setting",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "Product Development",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "Solution Design & Technical Ownership",
+            "level": "Master",
+            "keywords": []
+        },
+        {
+            "name": "UI / Front-end Engineering",
+            "level": "Expert",
+            "keywords": []
+        }
+    ],
+    "languages": ["English", "Italian"],
+    "interests": [],
+    "references": [],
+    "projects": [
+        {
+            "name": "Atlas by Hunt Club",
+            "description": "Network-first approach to managing your professional relationships. Know who you know, faster.",
+            "highlights": [],
+            "keywords": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "https://exploreatlas.io",
+            "roles": [],
+            "entity": "",
+            "type": ""
+        },
+        {
+            "name": "gopuff.com",
+            "description": "Vertically integrated e-commerce platform. The place for Grocery, Alcohol, Home, and more for 18-35 year olds.",
+            "highlights": [],
+            "keywords": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "https://gopuff.com",
+            "roles": [],
+            "entity": "",
+            "type": ""
+        },
+        {
+            "name": "gainbridge.life",
+            "description": "Fully digital retail annuity e-commerce platform. Purchase fixed annuities direct from the issuer, without an agent, on any device.",
+            "highlights": [],
+            "keywords": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "https://gainbridge.life",
+            "roles": [],
+            "entity": "",
+            "type": ""
+        },
+        {
+            "name": "davidbowie.com",
+            "description": "Official website for David Bowie. A virtual fan-club and exclusive content platform.",
+            "highlights": [],
+            "keywords": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "https://davidbowie.com",
+            "roles": [],
+            "entity": "",
+            "type": ""
+        },
+        {
+            "name": "rollingstones.com",
+            "description": "Official website for The Rolling Stones. Exclusive content, live chats, and limited edition merchandise for fans.",
+            "highlights": [],
+            "keywords": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "https://rollingstones.com",
+            "roles": [],
+            "entity": "",
+            "type": ""
+        },
+        {
+            "name": "madonna.com",
+            "description": "Official website for Madonna. A virtual fan-club offering exclusive content, live chats, and digital experiences.",
+            "highlights": [],
+            "keywords": [],
+            "startDate": "",
+            "endDate": "",
+            "url": "https://madonna.com",
+            "roles": [],
+            "entity": "",
+            "type": ""
+        }
+    ]
+}
