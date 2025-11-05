@@ -90,22 +90,7 @@ const About = () => {
                   do the same.
                 </p>
               </div>
-              <div className="mt-2 text-center">
-                <ButtonLink
-                  className="mr-2"
-                  url={information.cvfile}
-                  target="_blank"
-                >
-                  Resumè
-                </ButtonLink>
-                <ButtonLink
-                  className=""
-                  url={information.calendar}
-                  target="_blank"
-                >
-                  Calendar
-                </ButtonLink>
-              </div>
+              <div className="mt-2 text-center"></div>
             </div>
           </div>
         </div>
